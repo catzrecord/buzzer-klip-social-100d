@@ -1,0 +1,12 @@
+{
+  "name": "buzzer-klip-social-100d",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build_public.mjs",
+    "validate": "node scripts/validate.mjs --structure-only",
+    "validate:assets": "node scripts/validate.mjs",
+    "plan": "node scripts/generate_plan.mjs",
+    "assets": "python3 scripts/generate_assets.py"
+  }
+}

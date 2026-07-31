@@ -1,0 +1,84 @@
+name: Buzzer Klip Instagram Cloud Publisher
+
+on:
+  schedule:
+    # Once daily at 09:07 WIB.
+    - cron: "7 2 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Verify or publish the Buzzer Klip queue"
+        required: true
+        default: verify
+        type: choice
+        options:
+          - verify
+          - preflight
+          - due
+          - publish-id
+      post_id:
+        description: "Queue ID used only with publish-id"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: buzzer-klip-instagram-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+      INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+      PUBLIC_ASSET_BASE_URL: https://catzrecord.github.io/buzzer-klip-social-100d
+      META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION || 'v25.0' }}
+      META_GRAPH_HOST: ${{ vars.META_GRAPH_HOST || 'graph.instagram.com' }}
+      META_DISCLOSE_AI: "true"
+      BUZZER_KLIP_PUBLISH_MODE: ${{ github.event_name == 'schedule' && 'due' || inputs.mode }}
+      BUZZER_KLIP_POST_ID: ${{ inputs.mode == 'publish-id' && inputs.post_id || '' }}
+
+    steps:
+      - name: Check out the queue
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Use Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Validate cloud configuration
+        run: |
+          test -n "$META_ACCESS_TOKEN"
+          test -n "$INSTAGRAM_USER_ID"
+      - name: Verify or publish
+        id: publisher
+        run: node scripts/publish_due.mjs
+      - name: Rebuild public queue dashboard
+        if: contains(fromJSON('["published","already_published"]'), steps.publisher.outputs.result)
+        run: npm run build
+      - name: Save publishing ledger
+        if: contains(fromJSON('["published","already_published"]'), steps.publisher.outputs.result)
+        run: |
+          git config user.name "buzzer-klip-publisher[bot]"
+          git config user.email "buzzer-klip-publisher@users.noreply.github.com"
+          git add content-plan.json public/content-plan.json public/index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: record Buzzer Klip Instagram post ${{ steps.publisher.outputs.post_id }}"
+          git push
+      - name: Workflow summary
+        if: always()
+        run: |
+          {
+            echo "## Buzzer Klip Instagram publisher"
+            echo "- Result: \`${{ steps.publisher.outputs.result || 'workflow_failed' }}\`"
+            echo "- Post ID: \`${{ steps.publisher.outputs.post_id || '-' }}\`"
+            echo "- Type: \`${{ steps.publisher.outputs.post_type || '-' }}\`"
+            echo "- Assets: \`${{ steps.publisher.outputs.asset_count || '-' }}\`"
+            echo "- Instagram: ${{ steps.publisher.outputs.instagram_url || '-' }}"
+            echo "- Account: \`${{ steps.publisher.outputs.username || '-' }}\`"
+          } >> "$GITHUB_STEP_SUMMARY"

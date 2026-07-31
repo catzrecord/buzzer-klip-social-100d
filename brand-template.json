@@ -1,0 +1,22 @@
+{
+  "brand": "Buzzer Klip",
+  "source": "Instagram @buzzer_klip profile logo supplied as buzzer-klip-logo-instagram-crop.png",
+  "logo": "brand-audit/buzzer-klip-logo-instagram-crop.png",
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "aspectRatio": "4:5"
+  },
+  "placement": {
+    "anchor": "top-right",
+    "width": 190,
+    "rightMargin": 50,
+    "topMargin": 55
+  },
+  "rules": [
+    "Composite the supplied PNG exactly; never redraw or retype the logo.",
+    "Keep the logo small and secondary to the headline.",
+    "Reserve the top-right safe area before image generation.",
+    "Use scripts/apply_brand_template.py for every final feed asset."
+  ]
+}
