@@ -132,7 +132,9 @@ async function main() {
   if (!token) throw new Error("META_ACCESS_TOKEN is required for initial token state");
 
   const refreshedAt = stored?.refreshed_at ? Date.parse(stored.refreshed_at) : 0;
-  const refreshDue = !Number.isFinite(refreshedAt) || Date.now() - refreshedAt >= refreshAfterMs;
+  const forceRefresh = process.env.META_TOKEN_FORCE_REFRESH === "true";
+  const refreshDue =
+    forceRefresh || !Number.isFinite(refreshedAt) || Date.now() - refreshedAt >= refreshAfterMs;
   let stateChanged = false;
   let refreshStatus = "reused";
   let expiresIn = Number(stored?.expires_in || 0);
