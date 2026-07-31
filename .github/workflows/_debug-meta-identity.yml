@@ -1,0 +1,18 @@
+name: Temporary Meta identity check
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Query current token identity
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          META_GRAPH_HOST: ${{ vars.META_GRAPH_HOST || 'graph.instagram.com' }}
+          META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION || 'v25.0' }}
+        run: |
+          set -euo pipefail
+          curl --fail-with-body --silent --show-error \
+            "https://${META_GRAPH_HOST}/${META_GRAPH_VERSION}/me?fields=id,username,account_type&access_token=${META_ACCESS_TOKEN}"
