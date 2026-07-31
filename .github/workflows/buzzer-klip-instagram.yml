@@ -34,6 +34,7 @@ jobs:
     timeout-minutes: 10
     env:
       META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+      META_TOKEN_ENCRYPTION_KEY: ${{ secrets.META_TOKEN_ENCRYPTION_KEY }}
       INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
       PUBLIC_ASSET_BASE_URL: https://catzrecord.github.io/buzzer-klip-social-100d
       META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION || 'v25.0' }}
@@ -54,21 +55,35 @@ jobs:
       - name: Validate cloud configuration
         run: |
           test -n "$META_ACCESS_TOKEN"
+          test -n "$META_TOKEN_ENCRYPTION_KEY"
           test -n "$INSTAGRAM_USER_ID"
+      - name: Prepare renewable Meta token
+        id: token
+        run: node scripts/prepare_meta_token.mjs
       - name: Verify or publish
         id: publisher
         run: node scripts/publish_due.mjs
       - name: Rebuild public queue dashboard
         if: contains(fromJSON('["published","already_published"]'), steps.publisher.outputs.result)
         run: npm run build
-      - name: Save publishing ledger
-        if: contains(fromJSON('["published","already_published"]'), steps.publisher.outputs.result)
+      - name: Save publishing ledger and encrypted token state
+        if: steps.token.outputs.state_changed == 'true' || contains(fromJSON('["published","already_published"]'), steps.publisher.outputs.result)
+        env:
+          PUBLISH_RESULT: ${{ steps.publisher.outputs.result }}
+          POST_ID: ${{ steps.publisher.outputs.post_id }}
         run: |
           git config user.name "buzzer-klip-publisher[bot]"
           git config user.email "buzzer-klip-publisher@users.noreply.github.com"
-          git add content-plan.json public/content-plan.json public/index.html
+          git add .state/meta-token.enc
+          if [[ "$PUBLISH_RESULT" == "published" || "$PUBLISH_RESULT" == "already_published" ]]; then
+            git add content-plan.json public/content-plan.json public/index.html
+          fi
           git diff --cached --quiet && exit 0
-          git commit -m "chore: record Buzzer Klip Instagram post ${{ steps.publisher.outputs.post_id }}"
+          if [[ "$PUBLISH_RESULT" == "published" || "$PUBLISH_RESULT" == "already_published" ]]; then
+            git commit -m "chore: record Buzzer Klip Instagram post $POST_ID"
+          else
+            git commit -m "chore: persist renewable Instagram token state"
+          fi
           git push
       - name: Workflow summary
         if: always()
@@ -81,4 +96,6 @@ jobs:
             echo "- Assets: \`${{ steps.publisher.outputs.asset_count || '-' }}\`"
             echo "- Instagram: ${{ steps.publisher.outputs.instagram_url || '-' }}"
             echo "- Account: \`${{ steps.publisher.outputs.username || '-' }}\`"
+            echo "- Token: \`${{ steps.token.outputs.refresh_status || 'not_checked' }}\`"
+            echo "- Token lifetime: \`${{ steps.token.outputs.expires_in_days || '-' }} days\`"
           } >> "$GITHUB_STEP_SUMMARY"
