@@ -4,7 +4,7 @@
     "date": "2026-08-01",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 1,
     "day_in_week": 1,
@@ -63,7 +63,11 @@
       "graph_api_attachment": false,
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Kalau pembuka masih muter-muter, penonton sudah keburu swipe. Mulai dengan konflik, hasil, atau kalimat yang bikin orang merasa sedang diajak bicara.\n\nCoba cek tiga detik pertama videomu hari ini.\n\n#HookKonten #BuzzerKlip"
+    "final_caption": "Kalau pembuka masih muter-muter, penonton sudah keburu swipe. Mulai dengan konflik, hasil, atau kalimat yang bikin orang merasa sedang diajak bicara.\n\nCoba cek tiga detik pertama videomu hari ini.\n\n#HookKonten #BuzzerKlip",
+    "instagram_media_id": "17999060186972691",
+    "instagram_url": "https://www.instagram.com/p/DbfGfp1Eca_/",
+    "published_at": "2026-08-01T05:35:41+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 2,
