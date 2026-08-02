@@ -74,7 +74,7 @@
     "date": "2026-08-02",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 1,
     "day_in_week": 2,
@@ -105,7 +105,11 @@
       "graph_api_attachment": false,
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Penonton suka tahu alasan untuk bertahan. Tampilkan hasil atau janji paling jelas sebelum masuk ke proses. Rasa penasaran langsung punya arah.\n\nSimpan pola ini untuk clip berikutnya.\n\n#HookKonten #BuzzerKlip"
+    "final_caption": "Penonton suka tahu alasan untuk bertahan. Tampilkan hasil atau janji paling jelas sebelum masuk ke proses. Rasa penasaran langsung punya arah.\n\nSimpan pola ini untuk clip berikutnya.\n\n#HookKonten #BuzzerKlip",
+    "instagram_media_id": "18090191957117491",
+    "instagram_url": "https://www.instagram.com/p/DbhrShujmju/",
+    "published_at": "2026-08-02T05:35:43+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 3,
