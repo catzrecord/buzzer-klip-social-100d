@@ -96,7 +96,7 @@
     "date": "2026-08-02",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 1,
     "day_in_week": 2,
@@ -149,7 +149,11 @@
         "deleted_at": "2026-08-03T14:58:07.181Z",
         "reason": "Replaced with image-only abstract people and symbol artwork; removed all in-art logos and typography."
       }
-    ]
+    ],
+    "instagram_media_id": "18111470425814102",
+    "instagram_url": "https://www.instagram.com/p/DblRCIioB3o/",
+    "published_at": "2026-08-03T15:03:14+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 3,
