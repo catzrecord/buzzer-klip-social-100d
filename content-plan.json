@@ -4,7 +4,7 @@
     "date": "2026-08-01",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "published",
+    "status": "queued_auto",
     "post_type": "carousel",
     "week_number": 1,
     "day_in_week": 1,
@@ -84,19 +84,21 @@
         "deleted_instagram_url": "https://www.instagram.com/p/DbfGfp1Eca_/",
         "deleted_at": "2026-08-03T14:58:07.179Z",
         "reason": "Replaced with image-only abstract people and symbol artwork; removed all in-art logos and typography."
+      },
+      {
+        "deleted_instagram_media_id": "18212871190352439",
+        "deleted_instagram_url": "https://www.instagram.com/p/DblQwV0m4_s/",
+        "deleted_at": "2026-08-03T15:50:51.408Z",
+        "reason": "Replaced by website-brand educational content v5 with concise in-art copy and light CTA."
       }
-    ],
-    "instagram_media_id": "18212871190352439",
-    "instagram_url": "https://www.instagram.com/p/DblQwV0m4_s/",
-    "published_at": "2026-08-03T15:00:47+0000",
-    "published_via": "github_actions_graph_api"
+    ]
   },
   {
     "id": 2,
     "date": "2026-08-02",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "published",
+    "status": "queued_auto",
     "post_type": "single",
     "week_number": 1,
     "day_in_week": 2,
@@ -148,19 +150,21 @@
         "deleted_instagram_url": "https://www.instagram.com/p/DbhrShujmju/",
         "deleted_at": "2026-08-03T14:58:07.181Z",
         "reason": "Replaced with image-only abstract people and symbol artwork; removed all in-art logos and typography."
+      },
+      {
+        "deleted_instagram_media_id": "18111470425814102",
+        "deleted_instagram_url": "https://www.instagram.com/p/DblRCIioB3o/",
+        "deleted_at": "2026-08-03T15:50:51.410Z",
+        "reason": "Replaced by website-brand educational content v5 with concise in-art copy and light CTA."
       }
-    ],
-    "instagram_media_id": "18111470425814102",
-    "instagram_url": "https://www.instagram.com/p/DblRCIioB3o/",
-    "published_at": "2026-08-03T15:03:14+0000",
-    "published_via": "github_actions_graph_api"
+    ]
   },
   {
     "id": 3,
     "date": "2026-08-03",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "published",
+    "status": "queued_auto",
     "post_type": "carousel",
     "week_number": 1,
     "day_in_week": 3,
@@ -240,12 +244,14 @@
         "deleted_instagram_url": "https://www.instagram.com/p/DbkR-SClrjN/",
         "deleted_at": "2026-08-03T14:58:07.181Z",
         "reason": "Replaced with image-only abstract people and symbol artwork; removed all in-art logos and typography."
+      },
+      {
+        "deleted_instagram_media_id": "18121013677637508",
+        "deleted_instagram_url": "https://www.instagram.com/p/DblRRpjGxkd/",
+        "deleted_at": "2026-08-03T15:50:51.410Z",
+        "reason": "Replaced by website-brand educational content v5 with concise in-art copy and light CTA."
       }
-    ],
-    "instagram_media_id": "18121013677637508",
-    "instagram_url": "https://www.instagram.com/p/DblRRpjGxkd/",
-    "published_at": "2026-08-03T15:05:15+0000",
-    "published_via": "github_actions_graph_api"
+    ]
   },
   {
     "id": 4,
