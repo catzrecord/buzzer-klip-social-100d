@@ -8,7 +8,7 @@
     "post_type": "carousel",
     "week_number": 1,
     "day_in_week": 1,
-    "format": "abstract_human",
+    "format": "image_only_abstract",
     "title": "3 Detik Pertama Menentukan",
     "pillar": "Hook yang Nempel",
     "campaign_theme": "Potong. Posting. Cuan.",
@@ -55,9 +55,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-abstract-human-v1",
-    "visual_revision": "cinematic-neon-abstract-human-v1",
-    "visual_theme": "cinematic neon abstract human",
+    "asset_version": "buzzer-klip-image-only-abstract-v3",
+    "visual_revision": "cinematic-image-only-abstract-v3",
+    "visual_theme": "cinematic abstract people and symbols, image only",
     "subject_type": "faceless adult abstract human",
     "audio": {
       "requested": true,
@@ -75,7 +75,13 @@
     "instagram_media_id": "17999060186972691",
     "instagram_url": "https://www.instagram.com/p/DbfGfp1Eca_/",
     "published_at": "2026-08-01T05:35:41+0000",
-    "published_via": "github_actions_graph_api"
+    "published_via": "github_actions_graph_api",
+    "content_theme": "story",
+    "subject_family": "human",
+    "manual_asset_lock": true,
+    "in_art_text": "none",
+    "in_art_logo": "none",
+    "art_direction": "Full-frame abstract people and abstract symbols; no typography, no logos, no badges, no social-media marks."
   },
   {
     "id": 2,
@@ -86,7 +92,7 @@
     "post_type": "single",
     "week_number": 1,
     "day_in_week": 2,
-    "format": "abstract_human",
+    "format": "image_only_abstract",
     "title": "Buka Dengan Hasil",
     "pillar": "Hook yang Nempel",
     "campaign_theme": "Potong. Posting. Cuan.",
@@ -105,9 +111,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-abstract-human-v1",
-    "visual_revision": "cinematic-neon-abstract-human-v1",
-    "visual_theme": "cinematic neon abstract human",
+    "asset_version": "buzzer-klip-image-only-abstract-v3",
+    "visual_revision": "cinematic-image-only-abstract-v3",
+    "visual_theme": "cinematic abstract people and symbols, image only",
     "subject_type": "faceless adult abstract human",
     "audio": {
       "requested": true,
@@ -125,7 +131,13 @@
     "instagram_media_id": "18090191957117491",
     "instagram_url": "https://www.instagram.com/p/DbhrShujmju/",
     "published_at": "2026-08-02T05:35:43+0000",
-    "published_via": "github_actions_graph_api"
+    "published_via": "github_actions_graph_api",
+    "content_theme": "brand",
+    "subject_family": "scene",
+    "manual_asset_lock": true,
+    "in_art_text": "none",
+    "in_art_logo": "none",
+    "art_direction": "Full-frame abstract people and abstract symbols; no typography, no logos, no badges, no social-media marks."
   },
   {
     "id": 3,
@@ -136,7 +148,7 @@
     "post_type": "carousel",
     "week_number": 1,
     "day_in_week": 3,
-    "format": "abstract_human",
+    "format": "image_only_abstract",
     "title": "Kalimat Yang Menggigit",
     "pillar": "Hook yang Nempel",
     "campaign_theme": "Potong. Posting. Cuan.",
@@ -183,9 +195,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-abstract-human-v1",
-    "visual_revision": "cinematic-neon-abstract-human-v1",
-    "visual_theme": "cinematic neon abstract human",
+    "asset_version": "buzzer-klip-image-only-abstract-v3",
+    "visual_revision": "cinematic-image-only-abstract-v3",
+    "visual_theme": "cinematic abstract people and symbols, image only",
     "subject_type": "faceless adult abstract human",
     "audio": {
       "requested": true,
@@ -203,7 +215,13 @@
     "instagram_media_id": "17986789650011869",
     "instagram_url": "https://www.instagram.com/p/DbkR-SClrjN/",
     "published_at": "2026-08-03T05:52:11+0000",
-    "published_via": "github_actions_graph_api"
+    "published_via": "github_actions_graph_api",
+    "content_theme": "culture",
+    "subject_family": "human",
+    "manual_asset_lock": true,
+    "in_art_text": "none",
+    "in_art_logo": "none",
+    "art_direction": "Full-frame abstract people and abstract symbols; no typography, no logos, no badges, no social-media marks."
   },
   {
     "id": 4,

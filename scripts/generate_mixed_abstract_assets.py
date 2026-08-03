@@ -296,7 +296,7 @@ def main() -> None:
 
     generated = 0
     for item in plan:
-        if item.get("status") == "published":
+        if item.get("status") == "published" or item.get("manual_asset_lock") is True:
             continue
         for slide_index, slide in enumerate(item["slides"]):
             image = render_asset(item, slide, slide_index, pools, logo)

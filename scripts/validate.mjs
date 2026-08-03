@@ -12,10 +12,18 @@ for (const item of plan) {
     for (const asset of assets) await fs.access(path.join(root, asset));
   }
   if (!item.final_caption || !item.final_caption.trim()) throw new Error(`Blank caption ${item.id}`);
-  if (item.status === "queued_auto" && item.format !== "mixed_abstract") {
+  const isLockedImageOnly =
+    item.manual_asset_lock === true &&
+    item.format === "image_only_abstract" &&
+    item.visual_revision === "cinematic-image-only-abstract-v3";
+  if (item.status === "queued_auto" && item.format !== "mixed_abstract" && !isLockedImageOnly) {
     throw new Error(`Queued post ${item.id} is not using mixed-abstract format`);
   }
-  if (item.status === "queued_auto" && item.visual_revision !== "cinematic-neon-mixed-abstract-v2") {
+  if (
+    item.status === "queued_auto" &&
+    item.visual_revision !== "cinematic-neon-mixed-abstract-v2" &&
+    !isLockedImageOnly
+  ) {
     throw new Error(`Queued post ${item.id} has the wrong visual revision`);
   }
   if (item.approval_required !== true) throw new Error(`Editorial approval must remain enabled for ${item.id}`);

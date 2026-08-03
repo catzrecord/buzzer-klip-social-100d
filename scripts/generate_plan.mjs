@@ -470,7 +470,7 @@ for (const pillar of pillars) {
       final_caption: `${hook} ${insight}\n\n${cta}\n\n${tag1} ${tag2}`,
     };
     const existing = existingById.get(id);
-    if (existing?.status === "published") {
+    if (existing?.status === "published" || existing?.manual_asset_lock === true) {
       item = existing;
     } else if (
       existing &&
