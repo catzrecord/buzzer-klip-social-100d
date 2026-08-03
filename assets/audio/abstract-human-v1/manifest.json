@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "slug": "neon-resolve",
+    "title": "Neon Resolve",
+    "bpm": 94,
+    "mood": "focused cinematic pulse",
+    "duration_seconds": 20.426,
+    "asset": "assets/audio/abstract-human-v1/neon-resolve.m4a",
+    "native_search": "focused cinematic pulse, electronic instrumental, 94 bpm"
+  },
+  {
+    "id": 2,
+    "slug": "signal-rush",
+    "title": "Signal Rush",
+    "bpm": 112,
+    "mood": "fast creator momentum",
+    "duration_seconds": 17.143,
+    "asset": "assets/audio/abstract-human-v1/signal-rush.m4a",
+    "native_search": "fast creator momentum, electronic instrumental, 112 bpm"
+  },
+  {
+    "id": 3,
+    "slug": "glass-pulse",
+    "title": "Glass Pulse",
+    "bpm": 100,
+    "mood": "precise digital confidence",
+    "duration_seconds": 19.2,
+    "asset": "assets/audio/abstract-human-v1/glass-pulse.m4a",
+    "native_search": "precise digital confidence, electronic instrumental, 100 bpm"
+  },
+  {
+    "id": 4,
+    "slug": "creator-drive",
+    "title": "Creator Drive",
+    "bpm": 118,
+    "mood": "bold forward motion",
+    "duration_seconds": 16.271,
+    "asset": "assets/audio/abstract-human-v1/creator-drive.m4a",
+    "native_search": "bold forward motion, electronic instrumental, 118 bpm"
+  },
+  {
+    "id": 5,
+    "slug": "focus-circuit",
+    "title": "Focus Circuit",
+    "bpm": 88,
+    "mood": "calm concentrated energy",
+    "duration_seconds": 21.818,
+    "asset": "assets/audio/abstract-human-v1/focus-circuit.m4a",
+    "native_search": "calm concentrated energy, electronic instrumental, 88 bpm"
+  },
+  {
+    "id": 6,
+    "slug": "midnight-cut",
+    "title": "Midnight Cut",
+    "bpm": 104,
+    "mood": "dark editing rhythm",
+    "duration_seconds": 18.462,
+    "asset": "assets/audio/abstract-human-v1/midnight-cut.m4a",
+    "native_search": "dark editing rhythm, electronic instrumental, 104 bpm"
+  },
+  {
+    "id": 7,
+    "slug": "lime-horizon",
+    "title": "Lime Horizon",
+    "bpm": 110,
+    "mood": "optimistic neon lift",
+    "duration_seconds": 17.455,
+    "asset": "assets/audio/abstract-human-v1/lime-horizon.m4a",
+    "native_search": "optimistic neon lift, electronic instrumental, 110 bpm"
+  },
+  {
+    "id": 8,
+    "slug": "cyan-motion",
+    "title": "Cyan Motion",
+    "bpm": 120,
+    "mood": "clean high-speed workflow",
+    "duration_seconds": 16.0,
+    "asset": "assets/audio/abstract-human-v1/cyan-motion.m4a",
+    "native_search": "clean high-speed workflow, electronic instrumental, 120 bpm"
+  },
+  {
+    "id": 9,
+    "slug": "magenta-thought",
+    "title": "Magenta Thought",
+    "bpm": 92,
+    "mood": "curious idea formation",
+    "duration_seconds": 20.87,
+    "asset": "assets/audio/abstract-human-v1/magenta-thought.m4a",
+    "native_search": "curious idea formation, electronic instrumental, 92 bpm"
+  },
+  {
+    "id": 10,
+    "slug": "portal-steps",
+    "title": "Portal Steps",
+    "bpm": 108,
+    "mood": "aspirational creator journey",
+    "duration_seconds": 17.778,
+    "asset": "assets/audio/abstract-human-v1/portal-steps.m4a",
+    "native_search": "aspirational creator journey, electronic instrumental, 108 bpm"
+  },
+  {
+    "id": 11,
+    "slug": "quiet-voltage",
+    "title": "Quiet Voltage",
+    "bpm": 84,
+    "mood": "minimal reflective tension",
+    "duration_seconds": 22.857,
+    "asset": "assets/audio/abstract-human-v1/quiet-voltage.m4a",
+    "native_search": "minimal reflective tension, electronic instrumental, 84 bpm"
+  },
+  {
+    "id": 12,
+    "slug": "final-upload",
+    "title": "Final Upload",
+    "bpm": 116,
+    "mood": "release-day confidence",
+    "duration_seconds": 16.552,
+    "asset": "assets/audio/abstract-human-v1/final-upload.m4a",
+    "native_search": "release-day confidence, electronic instrumental, 116 bpm"
+  }
+]

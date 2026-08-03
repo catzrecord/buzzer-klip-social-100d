@@ -12,6 +12,10 @@ for (const item of plan) {
     for (const asset of assets) await fs.access(path.join(root, asset));
   }
   if (!item.final_caption || !item.final_caption.trim()) throw new Error(`Blank caption ${item.id}`);
+  if (item.format !== "abstract_human") throw new Error(`Post ${item.id} is not using abstract-human format`);
+  if (item.visual_revision !== "cinematic-neon-abstract-human-v1") {
+    throw new Error(`Post ${item.id} has the wrong visual revision`);
+  }
   if (item.approval_required !== true) throw new Error(`Editorial approval must remain enabled for ${item.id}`);
   if (!["draft", "review", "queued_auto", "published"].includes(item.status)) {
     throw new Error(`Bad status ${item.id}`);
@@ -35,6 +39,10 @@ for (const item of plan) {
     throw new Error(`Bad slide plan ${item.id}`);
   }
   if (item.audio?.selection !== "trending") throw new Error(`Bad audio policy ${item.id}`);
+  if (!item.audio?.original_preview_asset || !item.audio?.native_search || !item.audio?.bpm) {
+    throw new Error(`Incomplete audio direction ${item.id}`);
+  }
+  if (!structureOnly) await fs.access(path.join(root, item.audio.original_preview_asset));
   if (item.audio?.graph_api_attachment !== false) {
     throw new Error(`Image/carousel audio must not be marked as Graph API attached ${item.id}`);
   }

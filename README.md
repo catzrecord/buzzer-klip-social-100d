@@ -4,7 +4,7 @@ Cloud-hosted daily Instagram publishing queue for Buzzer Klip.
 
 ## Editorial system
 
-**Potong. Posting. Cuan.** is the umbrella idea: clipping is treated as a creator skill, a repeatable workflow, and a route to measurable payout. The feed uses Buzzer Klip's own neo-brutalist creator-economy language: lime, pink, lavender, cyan, heavy black borders, sticker labels, timeline marks, screen cards, streetwear energy, and Indonesian headlines.
+**Potong. Posting. Cuan.** remains the umbrella idea. The complete queue now uses a cinematic abstract-human system: anonymous adult figures made from black glass and translucent crystal, neon lime/cyan/magenta/lavender light, volumetric smoke, strong editorial typography, and the transparent Buzzer Klip PNG logo.
 
 This is intentionally separate from the Lajora visual system.
 
@@ -12,6 +12,8 @@ This is intentionally separate from the Lajora visual system.
 - Every complete seven-day campaign week: exactly 3 five-slide carousels and 4 single-image posts
 - Carousel/single order is deterministically randomized per week, so rerunning the generator keeps the same approved schedule
 - Total across 100 days: 43 carousels and 57 singles
+- Total production artwork: 272 final 1080×1350 JPG files
+- Twelve original electronic audio cues rotate across the 100-day plan
 - One approved post daily, targeted for 09:07 WIB via GitHub-hosted Actions
 - An early no-op probe covers delayed GitHub schedules; idempotency keeps publication at one post per day
 - Public assets: GitHub Pages
@@ -21,11 +23,14 @@ This is intentionally separate from the Lajora visual system.
 ## Local checks
 
 ```bash
-npm run plan
+npm run campaign
 npm run validate
 npm run build
 npm run validate:assets
 ```
+
+`npm run campaign` regenerates the original audio pack, deterministic content plan,
+all abstract-human artwork, validation, and the public preview dashboard.
 
 `npm run validate` checks the 100-day editorial structure before artwork production.
 `npm run validate:assets` additionally requires every single image and every carousel slide to exist.
@@ -37,11 +42,15 @@ Every publishable item must have `approval_required: true`, `approval_status: "a
 
 ## Audio policy
 
-The queue preserves the requested feed formats: real Instagram carousels and real single-photo posts.
+The queue preserves the requested feed formats: real Instagram carousels and real single-photo posts. Each item includes a selected original preview cue, BPM, mood, and native Instagram search direction.
+
+- Original cues: `assets/audio/abstract-human-v1/*.m4a`
+- Audio manifest: `assets/audio/abstract-human-v1/manifest.json`
+- The public dashboard exposes an audio player for every scheduled post.
 
 - Instagram's native app offers music for feed photos and photo carousels.
 - Meta's Instagram Audio API can retrieve trending music when `search_query` is omitted, but the API attaches that audio through `audio_configuration` when creating **Reels**.
-- GitHub Actions therefore publishes these feed images/carousels without an API-attached track. The content plan records `selection: "trending"` so a native-app music selection can be applied when a mobile-assisted publishing step is used.
+- GitHub Actions publishes the approved feed image/carousel. The plan records `selection: "trending"`, the original preview cue, BPM, mood, and `native_search` so the matching music can be applied in Instagram's native feed composer.
 - If a future campaign item is intentionally changed to a Reel, the Audio API can select trending music automatically before the Reel container is created.
 
 Official references:

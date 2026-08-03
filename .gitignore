@@ -4,6 +4,8 @@ __pycache__/
 .env
 *.log
 production-sources/
+public/posts/
+public/assets/audio/
 contact-sheet-*.jpg
 profile-photo-url.txt
 brand-audit/instagram-*.txt

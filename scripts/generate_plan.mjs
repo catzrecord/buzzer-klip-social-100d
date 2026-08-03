@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const planPath = path.join(root, "content-plan.json");
+const audioManifestPath = path.join(root, "assets", "audio", "abstract-human-v1", "manifest.json");
 const start = new Date("2026-08-01T00:00:00Z");
 const campaignTheme = "Potong. Posting. Cuan.";
 const carouselSlides = 5;
@@ -15,6 +16,7 @@ const existingPlan = await fs
     throw error;
   });
 const existingById = new Map(existingPlan.map((item) => [Number(item.id), item]));
+const audioTracks = JSON.parse(await fs.readFile(audioManifestPath, "utf8"));
 
 function seededRandom(seedText) {
   let seed = 2166136261;
@@ -222,8 +224,7 @@ for (const pillar of pillars) {
     const date = new Date(start);
     date.setUTCDate(start.getUTCDate() + id - 1);
     const isoDate = date.toISOString().slice(0, 10);
-    const formatCycle = ["image", "type", "object", "mixed", "image", "type", "object", "mixed", "type", "image"];
-    const format = formatCycle[(id - 1) % formatCycle.length];
+    const format = "abstract_human";
     const postType = postTypes[id - 1];
     const dayKey = `day-${String(id).padStart(3, "0")}`;
     const assets =
@@ -275,13 +276,20 @@ for (const pillar of pillars) {
       assets,
       slides,
       slide_count: assets.length,
-      asset_version: "buzzer-klip-100d-v2",
-      visual_revision: "buzzer-neo-brutalist-creator-v2",
+      asset_version: "buzzer-klip-abstract-human-v1",
+      visual_revision: "cinematic-neon-abstract-human-v1",
+      visual_theme: "cinematic neon abstract human",
+      subject_type: "faceless adult abstract human",
       audio: {
         requested: true,
         selection: "trending",
         native_feed_music: true,
         graph_api_attachment: false,
+        original_preview_asset: audioTracks[(id - 1) % audioTracks.length].asset,
+        original_preview_title: audioTracks[(id - 1) % audioTracks.length].title,
+        bpm: audioTracks[(id - 1) % audioTracks.length].bpm,
+        mood: audioTracks[(id - 1) % audioTracks.length].mood,
+        native_search: audioTracks[(id - 1) % audioTracks.length].native_search,
         reason: "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats.",
       },
       final_caption: `${hook} ${insight}\n\n${cta}\n\n${tag1} ${tag2}`,
