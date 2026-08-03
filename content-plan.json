@@ -102,7 +102,7 @@
     "date": "2026-08-02",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 1,
     "day_in_week": 2,
@@ -161,7 +161,11 @@
         "deleted_at": "2026-08-03T15:50:51.410Z",
         "reason": "Replaced by website-brand educational content v5 with concise in-art copy and light CTA."
       }
-    ]
+    ],
+    "instagram_media_id": "18076348193338936",
+    "instagram_url": "https://www.instagram.com/p/DblXrRHlrXi/",
+    "published_at": "2026-08-03T16:01:17+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 3,
