@@ -12,8 +12,16 @@ for (const item of plan) {
     for (const asset of assets) await fs.access(path.join(root, asset));
   }
   if (!item.final_caption || !item.final_caption.trim()) throw new Error(`Blank caption ${item.id}`);
-  if (item.approval_required !== false) throw new Error(`Approval must remain disabled for ${item.id}`);
-  if (item.status !== "queued_auto" && item.status !== "published") throw new Error(`Bad status ${item.id}`);
+  if (item.approval_required !== true) throw new Error(`Editorial approval must remain enabled for ${item.id}`);
+  if (!["draft", "review", "queued_auto", "published"].includes(item.status)) {
+    throw new Error(`Bad status ${item.id}`);
+  }
+  if (!["pending", "approved", "rejected"].includes(item.approval_status)) {
+    throw new Error(`Bad approval status ${item.id}`);
+  }
+  if (item.status === "queued_auto" && item.approval_status !== "approved") {
+    throw new Error(`Queued post ${item.id} must be editorially approved`);
+  }
   if (!/^2026-\d{2}-\d{2}$/.test(item.date)) throw new Error(`Bad date ${item.id}`);
   if (item.time_wib !== "09:00") throw new Error(`Bad publish time ${item.id}`);
   if (!["carousel", "single"].includes(item.post_type)) {

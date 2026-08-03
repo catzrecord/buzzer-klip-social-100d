@@ -2,7 +2,9 @@ name: Buzzer Klip Instagram Cloud Publisher
 
 on:
   schedule:
-    # Once daily at 09:07 WIB.
+    # Early probe: normally exits without publishing, but covers delayed GitHub schedules.
+    - cron: "7 23 * * *"
+    # Primary daily run at 09:07 WIB.
     - cron: "7 2 * * *"
   workflow_dispatch:
     inputs:
@@ -27,6 +29,7 @@ on:
         type: boolean
 
 permissions:
+  actions: write
   contents: write
 
 concurrency:
@@ -41,7 +44,7 @@ jobs:
       META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
       META_TOKEN_ENCRYPTION_KEY: ${{ secrets.META_TOKEN_ENCRYPTION_KEY }}
       INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
-      PUBLIC_ASSET_BASE_URL: https://catzrecord.github.io/buzzer-klip-social-100d
+      PUBLIC_ASSET_BASE_URL: ${{ secrets.PUBLIC_ASSET_BASE_URL || 'https://catzrecord.github.io/buzzer-klip-social-100d' }}
       META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION || 'v25.0' }}
       META_GRAPH_HOST: ${{ vars.META_GRAPH_HOST || 'graph.instagram.com' }}
       META_DISCLOSE_AI: "true"
@@ -63,6 +66,9 @@ jobs:
           test -n "$META_ACCESS_TOKEN"
           test -n "$META_TOKEN_ENCRYPTION_KEY"
           test -n "$INSTAGRAM_USER_ID"
+          test -n "$PUBLIC_ASSET_BASE_URL"
+      - name: Validate queue and final assets
+        run: npm run validate:assets
       - name: Prepare renewable Meta token
         id: token
         run: node scripts/prepare_meta_token.mjs
@@ -73,24 +79,38 @@ jobs:
         if: contains(fromJSON('["published","already_published"]'), steps.publisher.outputs.result)
         run: npm run build
       - name: Save publishing ledger and encrypted token state
+        id: ledger
         if: steps.token.outputs.state_changed == 'true' || contains(fromJSON('["published","already_published"]'), steps.publisher.outputs.result)
         env:
           PUBLISH_RESULT: ${{ steps.publisher.outputs.result }}
           POST_ID: ${{ steps.publisher.outputs.post_id }}
         run: |
+          PAGES_CHANGED=false
           git config user.name "buzzer-klip-publisher[bot]"
           git config user.email "buzzer-klip-publisher@users.noreply.github.com"
           git add .state/meta-token.enc
           if [[ "$PUBLISH_RESULT" == "published" || "$PUBLISH_RESULT" == "already_published" ]]; then
             git add content-plan.json public/content-plan.json public/index.html
+            PAGES_CHANGED=true
           fi
-          git diff --cached --quiet && exit 0
+          if git diff --cached --quiet; then
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+            echo "pages_changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           if [[ "$PUBLISH_RESULT" == "published" || "$PUBLISH_RESULT" == "already_published" ]]; then
             git commit -m "chore: record Buzzer Klip Instagram post $POST_ID"
           else
             git commit -m "chore: persist renewable Instagram token state"
           fi
           git push
+          echo "committed=true" >> "$GITHUB_OUTPUT"
+          echo "pages_changed=$PAGES_CHANGED" >> "$GITHUB_OUTPUT"
+      - name: Refresh public queue dashboard
+        if: steps.ledger.outputs.committed == 'true' && steps.ledger.outputs.pages_changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
       - name: Workflow summary
         if: always()
         run: |

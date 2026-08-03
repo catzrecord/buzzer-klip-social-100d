@@ -3,9 +3,18 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const planPath = path.join(root, "content-plan.json");
 const start = new Date("2026-08-01T00:00:00Z");
 const campaignTheme = "Potong. Posting. Cuan.";
 const carouselSlides = 5;
+const existingPlan = await fs
+  .readFile(planPath, "utf8")
+  .then((value) => JSON.parse(value))
+  .catch((error) => {
+    if (error?.code === "ENOENT") return [];
+    throw error;
+  });
+const existingById = new Map(existingPlan.map((item) => [Number(item.id), item]));
 
 function seededRandom(seedText) {
   let seed = 2166136261;
@@ -247,7 +256,7 @@ for (const pillar of pillars) {
             },
           ];
     const [tag1, tag2] = pillar.hashtag.split(" ");
-    items.push({
+    const item = {
       id,
       date: isoDate,
       time_wib: "09:00",
@@ -260,7 +269,8 @@ for (const pillar of pillars) {
       title,
       pillar: pillar.name,
       campaign_theme: campaignTheme,
-      approval_required: false,
+      approval_required: true,
+      approval_status: "approved",
       asset: assets[0],
       assets,
       slides,
@@ -275,11 +285,30 @@ for (const pillar of pillars) {
         reason: "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats.",
       },
       final_caption: `${hook} ${insight}\n\n${cta}\n\n${tag1} ${tag2}`,
-    });
+    };
+    const existing = existingById.get(id);
+    if (
+      existing &&
+      existing.title === item.title &&
+      existing.date === item.date &&
+      existing.post_type === item.post_type
+    ) {
+      for (const field of [
+        "status",
+        "approval_status",
+        "instagram_media_id",
+        "instagram_url",
+        "published_at",
+        "published_via",
+      ]) {
+        if (existing[field] !== undefined) item[field] = existing[field];
+      }
+    }
+    items.push(item);
     id += 1;
   }
 }
-await fs.writeFile(path.join(root, "content-plan.json"), `${JSON.stringify(items, null, 2)}\n`);
+await fs.writeFile(planPath, `${JSON.stringify(items, null, 2)}\n`);
 await fs.writeFile(path.join(root, "CAPTION-BUZZER-KLIP-100D.txt"), items.map((item) => [
   `POST ${String(item.id).padStart(3, "0")}`,
   `${item.date} — ${item.time_wib} WIB`,

@@ -12,7 +12,8 @@ This is intentionally separate from the Lajora visual system.
 - Every complete seven-day campaign week: exactly 3 five-slide carousels and 4 single-image posts
 - Carousel/single order is deterministically randomized per week, so rerunning the generator keeps the same approved schedule
 - Total across 100 days: 43 carousels and 57 singles
-- One post daily at 09:07 WIB via GitHub-hosted Actions
+- One approved post daily, targeted for 09:07 WIB via GitHub-hosted Actions
+- An early no-op probe covers delayed GitHub schedules; idempotency keeps publication at one post per day
 - Public assets: GitHub Pages
 - Captions: Indonesian, practical, energetic, CTA-led
 - Instagram account: supplied through `INSTAGRAM_USER_ID` and `META_ACCESS_TOKEN` repository secrets
@@ -28,6 +29,11 @@ npm run validate:assets
 
 `npm run validate` checks the 100-day editorial structure before artwork production.
 `npm run validate:assets` additionally requires every single image and every carousel slide to exist.
+`npm run plan` preserves matching approval and Instagram publication ledger fields, so regenerating
+the deterministic plan does not reopen already-published posts.
+
+Every publishable item must have `approval_required: true`, `approval_status: "approved"`, and
+`status: "queued_auto"`. Draft/review items are ignored by the cloud publisher.
 
 ## Audio policy
 
@@ -49,5 +55,10 @@ GitHub Actions expects these repository secrets:
 
 - `INSTAGRAM_USER_ID`
 - `META_ACCESS_TOKEN`
+- `META_TOKEN_ENCRYPTION_KEY`
+- `PUBLIC_ASSET_BASE_URL`
 
 The public asset host is `https://catzrecord.github.io/buzzer-klip-social-100d`.
+
+After a successful Instagram run, the publisher commits the media ledger and explicitly dispatches
+the Pages workflow so the public dashboard reflects the latest published state.

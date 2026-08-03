@@ -12,7 +12,8 @@
     "title": "3 Detik Pertama Menentukan",
     "pillar": "Hook yang Nempel",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-001/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-001/slide-01.jpg",
@@ -82,7 +83,8 @@
     "title": "Buka Dengan Hasil",
     "pillar": "Hook yang Nempel",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-002.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-002.jpg"
@@ -124,7 +126,8 @@
     "title": "Kalimat Yang Menggigit",
     "pillar": "Hook yang Nempel",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-003/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-003/slide-01.jpg",
@@ -194,7 +197,8 @@
     "title": "Jangan Mulai Dari Halo",
     "pillar": "Hook yang Nempel",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-004.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-004.jpg"
@@ -232,7 +236,8 @@
     "title": "Penasaran Itu Mesin",
     "pillar": "Hook yang Nempel",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-005.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-005.jpg"
@@ -270,7 +275,8 @@
     "title": "Satu Hook Satu Arah",
     "pillar": "Hook yang Nempel",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-006.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-006.jpg"
@@ -308,7 +314,8 @@
     "title": "Bikin Mata Berhenti",
     "pillar": "Hook yang Nempel",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-007/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-007/slide-01.jpg",
@@ -374,7 +381,8 @@
     "title": "Hook Bisa Diulang",
     "pillar": "Hook yang Nempel",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-008/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-008/slide-01.jpg",
@@ -440,7 +448,8 @@
     "title": "Potong Sebelum Basa-Basi",
     "pillar": "Hook yang Nempel",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-009/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-009/slide-01.jpg",
@@ -506,7 +515,8 @@
     "title": "Hook Yang Terasa Kamu",
     "pillar": "Hook yang Nempel",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-010/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-010/slide-01.jpg",
@@ -572,7 +582,8 @@
     "title": "Cari Kalimat Emas",
     "pillar": "Pilih Momen",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-011.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-011.jpg"
@@ -610,7 +621,8 @@
     "title": "Momen Yang Bikin Relate",
     "pillar": "Pilih Momen",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-012.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-012.jpg"
@@ -648,7 +660,8 @@
     "title": "Ambil Perubahannya",
     "pillar": "Pilih Momen",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-013.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-013.jpg"
@@ -686,7 +699,8 @@
     "title": "Punchline Jangan Dipotong",
     "pillar": "Pilih Momen",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-014.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-014.jpg"
@@ -724,7 +738,8 @@
     "title": "Satu Clip Satu Momen",
     "pillar": "Pilih Momen",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-015.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-015.jpg"
@@ -762,7 +777,8 @@
     "title": "Bukan Cuma Yang Viral",
     "pillar": "Pilih Momen",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-016/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-016/slide-01.jpg",
@@ -828,7 +844,8 @@
     "title": "Dengar Nada Suaranya",
     "pillar": "Pilih Momen",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-017/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-017/slide-01.jpg",
@@ -894,7 +911,8 @@
     "title": "Cari Konflik Kecil",
     "pillar": "Pilih Momen",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-018/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-018/slide-01.jpg",
@@ -960,7 +978,8 @@
     "title": "Potongan Yang Punya Arah",
     "pillar": "Pilih Momen",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-019.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-019.jpg"
@@ -998,7 +1017,8 @@
     "title": "Momen Yang Layak Diingat",
     "pillar": "Pilih Momen",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-020.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-020.jpg"
@@ -1036,7 +1056,8 @@
     "title": "Timeline Bukan Tempat Parkir",
     "pillar": "Edit Cepat",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-021.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-021.jpg"
@@ -1074,7 +1095,8 @@
     "title": "Cut Ikuti Napas",
     "pillar": "Edit Cepat",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-022/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-022/slide-01.jpg",
@@ -1140,7 +1162,8 @@
     "title": "Subtitle Bukan Wallpaper",
     "pillar": "Edit Cepat",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-023/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-023/slide-01.jpg",
@@ -1206,7 +1229,8 @@
     "title": "Zoom Ada Tujuannya",
     "pillar": "Edit Cepat",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-024.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-024.jpg"
@@ -1244,7 +1268,8 @@
     "title": "Warna Untuk Energi",
     "pillar": "Edit Cepat",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-025.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-025.jpg"
@@ -1282,7 +1307,8 @@
     "title": "Sound Effect Secukupnya",
     "pillar": "Edit Cepat",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-026.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-026.jpg"
@@ -1320,7 +1346,8 @@
     "title": "Frame Pertama Harus Jelas",
     "pillar": "Edit Cepat",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-027.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-027.jpg"
@@ -1358,7 +1385,8 @@
     "title": "Ritme Pendek Bukan Asal Cepat",
     "pillar": "Edit Cepat",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-028/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-028/slide-01.jpg",
@@ -1424,7 +1452,8 @@
     "title": "Edit Untuk Layar Kecil",
     "pillar": "Edit Cepat",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-029.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-029.jpg"
@@ -1462,7 +1491,8 @@
     "title": "Export Bukan Garis Finish",
     "pillar": "Edit Cepat",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-030/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-030/slide-01.jpg",
@@ -1528,7 +1558,8 @@
     "title": "Caption Buka Percakapan",
     "pillar": "Caption Nendang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-031.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-031.jpg"
@@ -1566,7 +1597,8 @@
     "title": "Satu Caption Satu Janji",
     "pillar": "Caption Nendang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-032.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-032.jpg"
@@ -1604,7 +1636,8 @@
     "title": "CTA Jangan Mengemis",
     "pillar": "Caption Nendang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-033/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-033/slide-01.jpg",
@@ -1670,7 +1703,8 @@
     "title": "Hashtag Bukan Strategi Tunggal",
     "pillar": "Caption Nendang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-034.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-034.jpg"
@@ -1708,7 +1742,8 @@
     "title": "Tulis Seperti Bicara",
     "pillar": "Caption Nendang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-035/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-035/slide-01.jpg",
@@ -1774,7 +1809,8 @@
     "title": "Caption Untuk Save",
     "pillar": "Caption Nendang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-036/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-036/slide-01.jpg",
@@ -1840,7 +1876,8 @@
     "title": "Pertanyaan Yang Spesifik",
     "pillar": "Caption Nendang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-037.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-037.jpg"
@@ -1878,7 +1915,8 @@
     "title": "Pakai Bahasa Komunitas",
     "pillar": "Caption Nendang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-038.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-038.jpg"
@@ -1916,7 +1954,8 @@
     "title": "Caption Bisa Jadi Hook Kedua",
     "pillar": "Caption Nendang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-039/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-039/slide-01.jpg",
@@ -1982,7 +2021,8 @@
     "title": "Edit Caption Setelah Preview",
     "pillar": "Caption Nendang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-040/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-040/slide-01.jpg",
@@ -2048,7 +2088,8 @@
     "title": "Vertikal Itu Bahasa Feed",
     "pillar": "Format Menang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-041.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-041.jpg"
@@ -2086,7 +2127,8 @@
     "title": "Safe Zone Itu Nyata",
     "pillar": "Format Menang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-042.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-042.jpg"
@@ -2124,7 +2166,8 @@
     "title": "Frame Bisa Jadi Identitas",
     "pillar": "Format Menang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-043.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-043.jpg"
@@ -2162,7 +2205,8 @@
     "title": "Cover Yang Mengundang",
     "pillar": "Format Menang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-044/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-044/slide-01.jpg",
@@ -2228,7 +2272,8 @@
     "title": "Buat Serial, Bukan Kebetulan",
     "pillar": "Format Menang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-045.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-045.jpg"
@@ -2266,7 +2311,8 @@
     "title": "Feed Perlu Kontras",
     "pillar": "Format Menang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-046/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-046/slide-01.jpg",
@@ -2332,7 +2378,8 @@
     "title": "Teks Besar, Pesan Jelas",
     "pillar": "Format Menang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-047.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-047.jpg"
@@ -2370,7 +2417,8 @@
     "title": "Crop Mengubah Cerita",
     "pillar": "Format Menang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-048.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-048.jpg"
@@ -2408,7 +2456,8 @@
     "title": "Beri Ruang Untuk Gerak",
     "pillar": "Format Menang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-049/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-049/slide-01.jpg",
@@ -2474,7 +2523,8 @@
     "title": "Konsisten Bukan Monoton",
     "pillar": "Format Menang",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-050.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-050.jpg"
@@ -2512,7 +2562,8 @@
     "title": "Batching Bikin Napas Panjang",
     "pillar": "Ritme Creator",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-051.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-051.jpg"
@@ -2550,7 +2601,8 @@
     "title": "Buat Bank Ide",
     "pillar": "Ritme Creator",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-052/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-052/slide-01.jpg",
@@ -2616,7 +2668,8 @@
     "title": "Ritme Mengalahkan Mood",
     "pillar": "Ritme Creator",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-053.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-053.jpg"
@@ -2654,7 +2707,8 @@
     "title": "Satu Workflow Untuk Satu Tujuan",
     "pillar": "Ritme Creator",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-054.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-054.jpg"
@@ -2692,7 +2746,8 @@
     "title": "Revisi Dengan Jarak",
     "pillar": "Ritme Creator",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-055/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-055/slide-01.jpg",
@@ -2758,7 +2813,8 @@
     "title": "Deadline Membantu Fokus",
     "pillar": "Ritme Creator",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-056/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-056/slide-01.jpg",
@@ -2824,7 +2880,8 @@
     "title": "Folder Yang Bisa Dicari",
     "pillar": "Ritme Creator",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-057.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-057.jpg"
@@ -2862,7 +2919,8 @@
     "title": "Cek Sebelum Serah",
     "pillar": "Ritme Creator",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-058.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-058.jpg"
@@ -2900,7 +2958,8 @@
     "title": "Kerja Cepat Bukan Kerja Ceroboh",
     "pillar": "Ritme Creator",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-059.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-059.jpg"
@@ -2938,7 +2997,8 @@
     "title": "Jaga Energi Kreatif",
     "pillar": "Ritme Creator",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-060/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-060/slide-01.jpg",
@@ -3004,7 +3064,8 @@
     "title": "Brand Suka Konteks",
     "pillar": "Brand Ready",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-061/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-061/slide-01.jpg",
@@ -3070,7 +3131,8 @@
     "title": "Brief Bukan Belenggu",
     "pillar": "Brand Ready",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-062/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-062/slide-01.jpg",
@@ -3136,7 +3198,8 @@
     "title": "Jaga Suara Creator",
     "pillar": "Brand Ready",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-063.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-063.jpg"
@@ -3174,7 +3237,8 @@
     "title": "Satu Pesan, Banyak Potongan",
     "pillar": "Brand Ready",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-064.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-064.jpg"
@@ -3212,7 +3276,8 @@
     "title": "Hook Harus Nyambung",
     "pillar": "Brand Ready",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-065/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-065/slide-01.jpg",
@@ -3278,7 +3343,8 @@
     "title": "Rapikan Delivery",
     "pillar": "Brand Ready",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-066.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-066.jpg"
@@ -3316,7 +3382,8 @@
     "title": "Tunjukkan Bukti Kerja",
     "pillar": "Brand Ready",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-067/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-067/slide-01.jpg",
@@ -3382,7 +3449,8 @@
     "title": "Pahami Audience Brand",
     "pillar": "Brand Ready",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-068.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-068.jpg"
@@ -3420,7 +3488,8 @@
     "title": "Revisi Itu Kolaborasi",
     "pillar": "Brand Ready",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-069/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-069/slide-01.jpg",
@@ -3486,7 +3555,8 @@
     "title": "Siap Tayang Itu Skill",
     "pillar": "Brand Ready",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-070.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-070.jpg"
@@ -3524,7 +3594,8 @@
     "title": "View Bukan Satu-Satunya Angka",
     "pillar": "Cuan Terukur",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-071/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-071/slide-01.jpg",
@@ -3590,7 +3661,8 @@
     "title": "Pahami Nilai Clip",
     "pillar": "Cuan Terukur",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-072/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-072/slide-01.jpg",
@@ -3656,7 +3728,8 @@
     "title": "Cuan Butuh Konsistensi",
     "pillar": "Cuan Terukur",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-073.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-073.jpg"
@@ -3694,7 +3767,8 @@
     "title": "Baca Retention",
     "pillar": "Cuan Terukur",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-074/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-074/slide-01.jpg",
@@ -3760,7 +3834,8 @@
     "title": "Jangan Kejar Angka Kosong",
     "pillar": "Cuan Terukur",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-075.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-075.jpg"
@@ -3798,7 +3873,8 @@
     "title": "Portofolio Yang Bicara",
     "pillar": "Cuan Terukur",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-076.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-076.jpg"
@@ -3836,7 +3912,8 @@
     "title": "Catat Apa Yang Bekerja",
     "pillar": "Cuan Terukur",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-077.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-077.jpg"
@@ -3874,7 +3951,8 @@
     "title": "Nilai Datang Dari Kejelasan",
     "pillar": "Cuan Terukur",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-078.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-078.jpg"
@@ -3912,7 +3990,8 @@
     "title": "Performa Adalah Feedback",
     "pillar": "Cuan Terukur",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-079.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-079.jpg"
@@ -3950,7 +4029,8 @@
     "title": "Ulangi Yang Terbukti",
     "pillar": "Cuan Terukur",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-080.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-080.jpg"
@@ -3988,7 +4068,8 @@
     "title": "Klip Menghubungkan Orang",
     "pillar": "Komunitas Klip",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-081/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-081/slide-01.jpg",
@@ -4054,7 +4135,8 @@
     "title": "Komentar Adalah Riset",
     "pillar": "Komunitas Klip",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-082/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-082/slide-01.jpg",
@@ -4120,7 +4202,8 @@
     "title": "Share Karena Merasa Terwakili",
     "pillar": "Komunitas Klip",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-083.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-083.jpg"
@@ -4158,7 +4241,8 @@
     "title": "Beri Kredit Dengan Jelas",
     "pillar": "Komunitas Klip",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-084/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-084/slide-01.jpg",
@@ -4224,7 +4308,8 @@
     "title": "Bikin Audience Ikut Memilih",
     "pillar": "Komunitas Klip",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-085.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-085.jpg"
@@ -4262,7 +4347,8 @@
     "title": "Komunitas Suka Konsistensi",
     "pillar": "Komunitas Klip",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-086.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-086.jpg"
@@ -4300,7 +4386,8 @@
     "title": "Jangan Takut Niche",
     "pillar": "Komunitas Klip",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-087.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-087.jpg"
@@ -4338,7 +4425,8 @@
     "title": "Balas Dengan Nilai",
     "pillar": "Komunitas Klip",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-088/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-088/slide-01.jpg",
@@ -4404,7 +4492,8 @@
     "title": "Rayakan Progress Kecil",
     "pillar": "Komunitas Klip",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-089/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-089/slide-01.jpg",
@@ -4470,7 +4559,8 @@
     "title": "Buzzer Bukan Sekadar Ramai",
     "pillar": "Komunitas Klip",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-090.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-090.jpg"
@@ -4508,7 +4598,8 @@
     "title": "Skill Bisa Dilatih",
     "pillar": "Level Up",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-091/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-091/slide-01.jpg",
@@ -4574,7 +4665,8 @@
     "title": "Tonton Dengan Mata Editor",
     "pillar": "Level Up",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-092.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-092.jpg"
@@ -4612,7 +4704,8 @@
     "title": "Bikin Versi Kedua",
     "pillar": "Level Up",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-093/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-093/slide-01.jpg",
@@ -4678,7 +4771,8 @@
     "title": "Berani Hapus",
     "pillar": "Level Up",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-094.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-094.jpg"
@@ -4716,7 +4810,8 @@
     "title": "Cari Referensi, Bukan Salinan",
     "pillar": "Level Up",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-095/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-095/slide-01.jpg",
@@ -4782,7 +4877,8 @@
     "title": "Kualitas Terlihat Dari Detail",
     "pillar": "Level Up",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-096.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-096.jpg"
@@ -4820,7 +4916,8 @@
     "title": "Eksperimen Dengan Batas",
     "pillar": "Level Up",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-097/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-097/slide-01.jpg",
@@ -4886,7 +4983,8 @@
     "title": "Jadilah Editor Yang Peka",
     "pillar": "Level Up",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-098.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-098.jpg"
@@ -4924,7 +5022,8 @@
     "title": "Naik Level Dengan Feedback",
     "pillar": "Level Up",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-099.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-099.jpg"
@@ -4962,7 +5061,8 @@
     "title": "Posting Adalah Latihan",
     "pillar": "Level Up",
     "campaign_theme": "Potong. Posting. Cuan.",
-    "approval_required": false,
+    "approval_required": true,
+    "approval_status": "approved",
     "asset": "posts/buzzer-klip-100d/day-100/slide-01.jpg",
     "assets": [
       "posts/buzzer-klip-100d/day-100/slide-01.jpg",

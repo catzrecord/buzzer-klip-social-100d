@@ -15,7 +15,7 @@ const accessToken = process.env.META_ACCESS_TOKEN;
 const assetBase = (process.env.PUBLIC_ASSET_BASE_URL || "").replace(/\/+$/, "");
 const mode = argument("mode") || process.env.BUZZER_KLIP_PUBLISH_MODE || "due";
 const requestedId = Number(argument("post-id") || process.env.BUZZER_KLIP_POST_ID || 0);
-const now = new Date(process.env.LAJORA_NOW || Date.now());
+const now = new Date(process.env.BUZZER_KLIP_NOW || Date.now());
 
 function argument(name) {
   const exact = `--${name}`;
@@ -61,11 +61,17 @@ function selectItem(plan) {
     return item;
   }
   const candidates = plan
-    .filter((item) => item.status === "queued_auto")
+    .filter((item) => item.status === "queued_auto" && item.approval_status === "approved")
     .map((item) => ({ item, due: dueAt(item) }))
     .filter(({ due }) => due && due <= now)
     .sort((a, b) => a.due - b.due || a.item.id - b.item.id);
   return candidates[0]?.item;
+}
+
+function requireApproved(item) {
+  if (item.status !== "published" && item.approval_status !== "approved") {
+    throw new Error(`Post ${item.id} has not passed editorial approval`);
+  }
 }
 
 function assetUrl(item, asset) {
@@ -318,6 +324,7 @@ async function main() {
       await setOutput({ result: "no_post_due", now_wib: currentWib });
       return;
     }
+    requireApproved(next);
     const imageUrls = assetUrls(next);
     await Promise.all(imageUrls.map(verifyAsset));
     const container = await createContainer(next, imageUrls);
@@ -340,6 +347,7 @@ async function main() {
     await setOutput({ result: "no_post_due", now_wib: currentWib });
     return;
   }
+  requireApproved(item);
   if (item.status === "published") {
     await setOutput({
       result: "already_recorded",
