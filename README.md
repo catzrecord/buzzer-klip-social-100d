@@ -17,8 +17,8 @@ This is intentionally separate from the Lajora visual system.
 - Nine editorial themes rotate across education, mindset, relatable creator life, community, brand, challenge, story, motivation, and clipper culture
 - Education is limited to 19 of the 97 future posts; the other 78 posts use non-educational themes
 - Twelve original electronic audio cues rotate across the 100-day plan
-- One approved post daily, targeted for 09:07 WIB via GitHub-hosted Actions
-- An early no-op probe covers delayed GitHub schedules; idempotency keeps publication at one post per day
+- One approved post daily, targeted for 18:27 WIB via GitHub-hosted Actions
+- Queue idempotency keeps publication at one post per scheduled day
 - Public assets: GitHub Pages
 - Captions: Indonesian, practical, energetic, CTA-led
 - Instagram account: supplied through `INSTAGRAM_USER_ID` and `META_ACCESS_TOKEN` repository secrets
