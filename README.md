@@ -4,7 +4,7 @@ Cloud-hosted daily Instagram publishing queue for Buzzer Klip.
 
 ## Editorial system
 
-**Potong. Posting. Cuan.** remains the umbrella idea. The complete queue now uses a cinematic abstract-human system: anonymous adult figures made from black glass and translucent crystal, neon lime/cyan/magenta/lavender light, volumetric smoke, strong editorial typography, and the transparent Buzzer Klip PNG logo.
+**Potong. Posting. Cuan.** remains the umbrella idea. The queue now uses a cinematic mixed-abstract system: anonymous figures, creator objects, editing symbols, portals, devices, energy forms, and atmospheric scenes. Neon lime/cyan/magenta/lavender light, volumetric smoke, strong editorial typography, and the transparent Buzzer Klip PNG logo keep the feed cohesive without repeating one subject.
 
 This is intentionally separate from the Lajora visual system.
 
@@ -13,6 +13,9 @@ This is intentionally separate from the Lajora visual system.
 - Carousel/single order is deterministically randomized per week, so rerunning the generator keeps the same approved schedule
 - Total across 100 days: 43 carousels and 57 singles
 - Total production artwork: 272 final 1080×1350 JPG files
+- The 97 queued posts mix 39 human, 38 object, and 20 scene-led concepts
+- Nine editorial themes rotate across education, mindset, relatable creator life, community, brand, challenge, story, motivation, and clipper culture
+- Education is limited to 19 of the 97 future posts; the other 78 posts use non-educational themes
 - Twelve original electronic audio cues rotate across the 100-day plan
 - One approved post daily, targeted for 09:07 WIB via GitHub-hosted Actions
 - An early no-op probe covers delayed GitHub schedules; idempotency keeps publication at one post per day
@@ -30,7 +33,7 @@ npm run validate:assets
 ```
 
 `npm run campaign` regenerates the original audio pack, deterministic content plan,
-all abstract-human artwork, validation, and the public preview dashboard.
+all mixed-abstract artwork, validation, and the public preview dashboard.
 
 `npm run validate` checks the 100-day editorial structure before artwork production.
 `npm run validate:assets` additionally requires every single image and every carousel slide to exist.

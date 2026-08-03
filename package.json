@@ -8,7 +8,7 @@
     "validate:assets": "node scripts/validate.mjs",
     "plan": "node scripts/generate_plan.mjs",
     "audio": "python3 scripts/generate_audio_pack.py",
-    "assets": "python3 scripts/generate_abstract_human_assets.py",
+    "assets": "python3 scripts/generate_mixed_abstract_assets.py",
     "campaign": "npm run audio && npm run plan && npm run assets && npm run validate:assets && npm run build"
   }
 }

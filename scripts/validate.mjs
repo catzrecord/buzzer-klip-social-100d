@@ -12,9 +12,11 @@ for (const item of plan) {
     for (const asset of assets) await fs.access(path.join(root, asset));
   }
   if (!item.final_caption || !item.final_caption.trim()) throw new Error(`Blank caption ${item.id}`);
-  if (item.format !== "abstract_human") throw new Error(`Post ${item.id} is not using abstract-human format`);
-  if (item.visual_revision !== "cinematic-neon-abstract-human-v1") {
-    throw new Error(`Post ${item.id} has the wrong visual revision`);
+  if (item.status === "queued_auto" && item.format !== "mixed_abstract") {
+    throw new Error(`Queued post ${item.id} is not using mixed-abstract format`);
+  }
+  if (item.status === "queued_auto" && item.visual_revision !== "cinematic-neon-mixed-abstract-v2") {
+    throw new Error(`Queued post ${item.id} has the wrong visual revision`);
   }
   if (item.approval_required !== true) throw new Error(`Editorial approval must remain enabled for ${item.id}`);
   if (!["draft", "review", "queued_auto", "published"].includes(item.status)) {
@@ -69,6 +71,16 @@ if (
 
 const carouselCount = plan.filter((item) => item.post_type === "carousel").length;
 const singleCount = plan.filter((item) => item.post_type === "single").length;
+const queued = plan.filter((item) => item.status === "queued_auto");
+const themes = new Set(queued.map((item) => item.content_theme));
+const families = new Set(queued.map((item) => item.subject_family));
+const educationCount = queued.filter((item) => item.content_theme === "education").length;
+if (themes.size < 9 || educationCount > 20) {
+  throw new Error(`Content mix is too narrow: ${themes.size} themes, ${educationCount} educational queued posts`);
+}
+if (!["human", "object", "scene"].every((family) => families.has(family))) {
+  throw new Error(`Subject mix is incomplete: ${[...families].join(", ")}`);
+}
 console.log(
-  `Validated 100 posts: ${carouselCount} carousel, ${singleCount} single, 3/4 randomized in every full campaign week${structureOnly ? " (structure only)" : " (all assets present)"}.`,
+  `Validated 100 posts: ${carouselCount} carousel, ${singleCount} single, ${themes.size} content themes, ${families.size} subject families${structureOnly ? " (structure only)" : " (all assets present)"}.`,
 );

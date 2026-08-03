@@ -217,14 +217,188 @@ const pillars = [
   },
 ];
 
+const contentThemeCycle = [
+  "education", "mindset", "relatable", "community", "brand",
+  "education", "challenge", "story", "motivation", "culture",
+];
+const subjectFamilyCycle = [
+  "object", "human", "object", "human", "scene",
+  "object", "human", "scene", "object", "human",
+];
+
+const contentBanks = {
+  mindset: {
+    pillar: "Creator Mindset",
+    hashtag: "#CreatorMindset #BuzzerKlip",
+    ideas: [
+      ["Mulai Meski Belum Siap", "Rasa siap sering datang setelah langkah pertama.", "Karya yang dikirim memberi pengalaman nyata; draft yang disimpan hanya memberi kemungkinan.", "Kirim satu karya hari ini."],
+      ["Sepi Bukan Berarti Gagal", "Feed yang tenang bukan vonis untuk kemampuanmu.", "Gunakan masa sepi untuk menguatkan karakter, ritme, dan kebiasaan berkarya.", "Tetap hadir di posting berikutnya."],
+      ["Karya Tidak Harus Sempurna", "Perfeksionisme sering memakai nama kualitas.", "Tentukan standar selesai, rapikan bagian penting, lalu beri ruang untuk versi berikutnya.", "Pilih satu draft untuk diselesaikan."],
+      ["Konsisten Lebih Berisik", "Satu karya hebat mudah lewat dari ingatan.", "Rangkaian karya yang jujur membuat orang mengenali suara dan arahmu.", "Bangun ritme yang sanggup kamu jaga."],
+      ["Jangan Tunggu Mood", "Mood datang dan pergi, jadwal membuat karya tetap bergerak.", "Siapkan ritual kecil agar mulai terasa ringan bahkan pada hari biasa.", "Mulai dari lima menit pertama."],
+      ["Berani Punya Gaya", "Terlihat berbeda memang terasa canggung di awal.", "Keunikan tumbuh ketika pilihan visual dan suaramu diulang dengan percaya diri.", "Pertahankan satu ciri khasmu."],
+      ["Percaya Pada Proses", "Hasil besar jarang terlihat pada percobaan pertama.", "Setiap upload melatih mata, rasa, keputusan, dan kemampuan membaca penonton.", "Catat satu kemajuan hari ini."],
+      ["Lelah Boleh Hilang Jangan", "Istirahat adalah bagian dari ritme kreatif.", "Kurangi kecepatan saat perlu, lalu kembali dengan arah yang lebih jernih.", "Atur jeda tanpa meninggalkan perjalanan."],
+      ["Fokus Pada Satu Langkah", "Target besar terasa berat ketika dipikirkan sekaligus.", "Pecah perjalanan menjadi pilih momen, edit, cek, lalu kirim.", "Selesaikan langkah terdekat."],
+      ["Kamu Punya Tempat", "Internet cukup luas untuk lebih dari satu jenis creator.", "Suara yang jujur menemukan orangnya ketika diberi kesempatan untuk tampil.", "Berani muncul dengan versimu."],
+    ],
+  },
+  relatable: {
+    pillar: "Relatable Creator",
+    hashtag: "#CreatorLife #BuzzerKlip",
+    ideas: [
+      ["Export 99 Persen Lalu Error", "Kesabaran editor diuji tepat sebelum garis akhir.", "Tarik napas, cek ruang penyimpanan, lalu anggap ini bagian dari legenda produksi.", "Tag teman yang pernah mengalaminya."],
+      ["Revisi Katanya Sedikit", "Tiga kata yang sering membuka perjalanan baru.", "Simpan versi, rapikan catatan, dan jangan percaya ukuran revisi sebelum membacanya.", "Berapa revisi terbanyakmu?"],
+      ["Ide Datang Saat Mau Tidur", "Otak creator punya jadwal sendiri.", "Tulis satu kalimat sebelum ide itu berubah menjadi mimpi yang sulit dijelaskan.", "Buka notes sebelum memejamkan mata."],
+      ["Folder Final Final Banget", "Nama file sering menceritakan seluruh perjuangan.", "Versi boleh banyak, tetapi keputusan terakhir tetap membutuhkan keberanian.", "Tulis nama file final paling absurd."],
+      ["Lima Menit Jadi Dua Jam", "Satu cut kecil bisa membuka seratus kemungkinan.", "Waktu terasa hilang ketika creator sedang mengejar rasa yang tepat.", "Siapa yang sering lupa waktu saat edit?"],
+      ["Caption Lebih Lama Dari Edit", "Visual selesai, satu kalimat masih menatap kosong.", "Kadang bagian tersulit bukan membuat, tetapi menjelaskan tanpa merusak rasa.", "Tim caption cepat atau lama?"],
+      ["Sudah Posting Lalu Cek Lagi", "Creator tahu ritual refresh setelah upload.", "Harapan, cemas, dan penasaran berkumpul dalam satu gerakan jempol.", "Berapa kali kamu cek setelah posting?"],
+      ["View Sepi Tetap Upload", "Angka kecil tetap lahir dari karya yang berani tampil.", "Hari sepi sering menjadi latihan untuk hari ketika perhatian datang lebih besar.", "Kasih semangat untuk creator yang konsisten."],
+      ["Musik Ketemu Edit Selesai", "Satu audio tepat bisa menyatukan semua potongan.", "Momen ketika ritme bertemu visual selalu terasa seperti menemukan jawaban.", "Audio apa yang sedang kamu ulang?"],
+      ["Deadline Bikin Kreatif", "Waktu sempit kadang memotong terlalu banyak pilihan.", "Batas yang jelas memaksa kita fokus pada keputusan yang benar-benar penting.", "Deadline paling mepetmu berapa jam?"],
+    ],
+  },
+  community: {
+    pillar: "Komunitas Creator",
+    hashtag: "#KomunitasCreator #BuzzerKlip",
+    ideas: [
+      ["Clipper Tidak Jalan Sendiri", "Satu karya bisa lahir dari banyak dukungan.", "Teman review, sumber inspirasi, dan komunitas membuat perjalanan terasa lebih panjang napasnya.", "Tag partner kreatifmu."],
+      ["Share Setup Kamu", "Alat sederhana sering punya cerita paling menarik.", "Tidak ada meja yang terlalu kecil untuk memulai karya yang punya dampak.", "Ceritakan setup yang kamu pakai."],
+      ["Tim Cut Atau Transisi", "Setiap editor punya kebiasaan yang dibela mati-matian.", "Perbedaan gaya membuat percakapan kreatif tetap hidup dan menyenangkan.", "Pilih timmu di komentar."],
+      ["Kenalan Dengan Creator Baru", "Kolaborasi dimulai dari sapaan yang sederhana.", "Satu koneksi baru bisa membawa perspektif, energi, dan kesempatan yang berbeda.", "Sapa satu creator hari ini."],
+      ["Saling Review Bukan Menjatuhkan", "Feedback terbaik membantu karya bergerak.", "Bicarakan bagian spesifik, jelaskan dampaknya, lalu beri ruang untuk pilihan kreator.", "Kirim feedback yang berguna."],
+      ["Cerita Clip Pertamamu", "Karya pertama mungkin berantakan, tetapi selalu punya tempat khusus.", "Dari sanalah selera, keberanian, dan kebiasaan mulai terbentuk.", "Bagikan cerita karya pertamamu."],
+      ["Komunitas Bikin Konsisten", "Semangat lebih mudah dijaga ketika ada teman seperjalanan.", "Ritual berbagi progress membuat target terasa nyata dan menyenangkan.", "Buat check-in mingguan bersama."],
+      ["Kolaborasi Membuka Pintu", "Dua sudut pandang bisa melahirkan kemungkinan ketiga.", "Gabungkan kekuatan tanpa menghapus karakter masing-masing creator.", "Ajak satu orang membuat sesuatu."],
+      ["Rayakan Progress Kecil", "Tidak semua kemenangan harus menunggu angka besar.", "Cut lebih rapi, caption lebih jelas, dan upload tepat waktu layak dirayakan.", "Tulis progress kecil minggu ini."],
+      ["Ruang Ini Milik Para Pembuat", "Buzzer Klip hidup karena karya dan percakapan creator.", "Semakin banyak yang berbagi, semakin kaya kemungkinan yang bisa dibangun bersama.", "Ajak creator lain bergabung."],
+    ],
+  },
+  brand: {
+    pillar: "Buzzer Klip",
+    hashtag: "#BuzzerKlip #CreatorIndonesia",
+    ideas: [
+      ["Ruang Para Clipper", "Setiap potongan membawa sudut pandang baru.", "Buzzer Klip menjadi titik temu untuk karya, creator, dan peluang yang terus bergerak.", "Tunjukkan clip terbaikmu."],
+      ["Dari Momen Jadi Karya", "Momen singkat bisa punya hidup yang panjang.", "Pilihan creator mengubah percakapan biasa menjadi sesuatu yang layak dibagikan.", "Mulai dari satu momen."],
+      ["Satu Tempat Untuk Bergerak", "Ide membutuhkan ruang untuk diuji dan ditemukan.", "Buzzer Klip mendorong creator mengubah energi menjadi karya yang terlihat.", "Masuk dan mulai bergerak."],
+      ["Peluang Dimulai Dari Upload", "Karya yang tampil bisa membuka percakapan baru.", "Jangan biarkan potongan terbaik hanya tinggal di folder export.", "Siapkan upload berikutnya."],
+      ["Campaign Butuh Ide Segar", "Setiap brief bisa diterjemahkan dengan karakter berbeda.", "Sudut pandang creator membuat sebuah pesan terasa hidup dan relevan.", "Bawa gaya terbaikmu."],
+      ["Karya Kamu Layak Dilihat", "Keberanian tampil adalah bagian dari proses kreatif.", "Buzzer Klip memberi ruang pada creator yang terus mencoba dan berkembang.", "Kirim karya yang kamu banggakan."],
+      ["Clipper Punya Panggung", "Di balik setiap potongan ada keputusan dan kepekaan.", "Saat karya mendapat ruang, kemampuan creator ikut terlihat.", "Ambil panggungmu."],
+      ["Hubungkan Ide Dengan Peluang", "Kreativitas tumbuh lebih jauh ketika bertemu kebutuhan nyata.", "Bangun karya yang jelas, khas, dan siap membuka percakapan.", "Mulai koneksi berikutnya."],
+      ["Lebih Dari Sekadar Platform", "Komunitas dibangun oleh orang yang saling mendorong.", "Buzzer Klip menyatukan proses belajar, karya, dan kesempatan bertumbuh.", "Tumbuh bersama creator lain."],
+      ["Giliran Kamu Masuk Feed", "Feed terbaik selalu menunggu suara baru.", "Satu karya yang jujur cukup untuk memperkenalkan karakter creator.", "Buat sesuatu yang layak diingat."],
+    ],
+  },
+  challenge: {
+    pillar: "Creator Challenge",
+    hashtag: "#CreatorChallenge #BuzzerKlip",
+    ideas: [
+      ["Tantangan Hook 3 Detik", "Buat pembuka yang langsung memberi alasan untuk bertahan.", "Pilih konflik, hasil, atau pertanyaan; jangan gunakan salam panjang.", "Upload hasilmu dan tandai Buzzer Klip."],
+      ["Potong Dalam 30 Menit", "Batas waktu memaksa keputusan terasa lebih jernih.", "Cari satu momen, pilih satu tujuan, dan selesaikan tanpa mengejar dekorasi.", "Pasang timer lalu mulai."],
+      ["Upload Tiga Hari Beruntun", "Konsistensi lebih mudah dilatih dalam sprint pendek.", "Tiga hari cukup untuk melihat pola kerja tanpa membuat target terasa berat.", "Ajak teman ikut tantangan."],
+      ["Satu Video Tiga Versi", "Sumber yang sama bisa punya tiga energi berbeda.", "Uji versi cepat, emosional, dan informatif untuk melihat cara cerita berubah.", "Pilih versi favoritmu."],
+      ["Tanpa Transisi Berlebihan", "Cerita tetap harus kuat ketika efek dikurangi.", "Gunakan cut, timing, dan suara sebagai fondasi utama.", "Buat satu edit yang bersih."],
+      ["Cari Momen Paling Relate", "Bagian yang terasa dekat lebih mudah mengundang respons.", "Pilih pengalaman kecil yang banyak orang pernah rasakan.", "Tulis momen pilihanmu."],
+      ["Caption Satu Kalimat", "Kejelasan diuji ketika ruang dibuat sempit.", "Buat satu kalimat yang membuka percakapan tanpa menjelaskan semuanya.", "Kirim caption versimu."],
+      ["Edit Dengan Satu Warna", "Batas visual bisa melahirkan identitas yang kuat.", "Pilih satu aksen lalu biarkan elemen lain mendukungnya.", "Tunjukkan warna pilihanmu."],
+      ["Kolaborasi Dengan Creator Baru", "Energi baru mengubah cara kita melihat footage.", "Bagi peran dengan jelas dan pertahankan karakter masing-masing.", "Kirim satu ajakan kolaborasi."],
+      ["Berani Posting Draft", "Tidak semua eksperimen harus menunggu sempurna.", "Pilih draft yang sudah menyampaikan rasa utamanya lalu beri kesempatan pada audience.", "Posting sebelum terlalu banyak berpikir."],
+    ],
+  },
+  story: {
+    pillar: "Creator Stories",
+    hashtag: "#CreatorStories #BuzzerKlip",
+    ideas: [
+      ["Dari Laptop Tua Ke Karya Pertama", "Mesinnya lambat, tetapi rasa ingin membuat bergerak lebih cepat.", "Keterbatasan mengajarkan creator memilih hal yang benar-benar penting.", "Apa alat pertama yang kamu pakai?"],
+      ["Satu Clip Mengubah Arah", "Kadang satu karya memberi tanda bahwa kita berada di jalan yang tepat.", "Bukan karena sempurna, tetapi karena akhirnya terasa seperti suara sendiri.", "Ingat karya yang mengubah arahmu."],
+      ["Malam Panjang Sebelum Upload", "Timeline menyala ketika kota sudah tenang.", "Di antara kopi, revisi, dan ragu, keputusan untuk mengirim akhirnya menang.", "Siapa yang sering edit tengah malam?"],
+      ["Revisi Kesepuluh", "Versi demi versi terasa seperti berjalan memutar.", "Lalu satu perubahan kecil membuat semuanya tiba-tiba punya bentuk.", "Ceritakan revisi paling melelahkan."],
+      ["Saat View Pertama Masuk", "Angkanya kecil, tetapi rasanya seperti pintu terbuka.", "Satu penonton nyata cukup untuk membuat karya terasa sudah menemukan tempat.", "Kamu masih ingat view pertamamu?"],
+      ["Penonton Pertama Bukan Angka", "Di balik satu view ada seseorang yang memilih berhenti.", "Mengingat hal itu membuat creator kembali fokus pada pengalaman manusia.", "Buat karya untuk satu orang nyata."],
+      ["Ide Kecil Di Timeline Sepi", "Tidak ada efek besar, hanya satu momen yang terasa jujur.", "Sering kali justru potongan sederhana yang paling lama tinggal di kepala.", "Simpan ide kecilmu."],
+      ["Belajar Dari Post Yang Sepi", "Karya itu tidak meledak, tetapi meninggalkan petunjuk.", "Hook, waktu, atau pesannya bisa dibaca ulang tanpa menghapus keberanian yang sudah ada.", "Ambil satu pelajaran tanpa menyalahkan diri."],
+      ["Karya Yang Akhirnya Dikirim", "Tombol upload terasa lebih berat dari seluruh proses edit.", "Begitu dikirim, ruang baru terbuka untuk karya berikutnya.", "Selesaikan cerita yang tertunda."],
+      ["Besok Kita Mulai Lagi", "Hari ini mungkin tidak berjalan sesuai rencana.", "Creator bertahan bukan karena selalu menang, tetapi karena bersedia kembali.", "Siapkan satu langkah untuk besok."],
+    ],
+  },
+  motivation: {
+    pillar: "Creator Energy",
+    hashtag: "#CreatorEnergy #BuzzerKlip",
+    ideas: [
+      ["Satu Clip Bisa Buka Jalan", "Kita tidak selalu tahu karya mana yang menemukan pintunya.", "Tugas creator adalah terus membuat kemungkinan itu tersedia.", "Kirim satu kemungkinan baru."],
+      ["Karya Hari Ini Menumpuk", "Tidak semua hasil terlihat pada hari yang sama.", "Skill, portofolio, dan kepercayaan tumbuh dari pekerjaan yang terus dikumpulkan.", "Tambahkan satu karya hari ini."],
+      ["Mulai Kecil Bergerak Jauh", "Langkah kecil lebih kuat daripada rencana besar yang diam.", "Gunakan alat yang ada dan biarkan perjalanan memperbaiki sisanya.", "Mulai dari footage terdekat."],
+      ["Audience Datang Pada Yang Hadir", "Orang sulit mengenali suara yang jarang muncul.", "Kehadiran yang konsisten memberi kesempatan pada audience untuk menemukanmu.", "Jaga satu ritme sederhana."],
+      ["Tetap Buat Saat Sepi", "Masa tenang membangun otot yang dipakai ketika perhatian datang.", "Gunakan ruang ini untuk mencoba tanpa terlalu banyak beban.", "Buat satu eksperimen baru."],
+      ["Momentum Dibangun", "Energi jarang turun dari langit dalam bentuk sempurna.", "Satu tugas selesai memudahkan tugas berikutnya ikut bergerak.", "Mulai dari bagian paling ringan."],
+      ["Kualitas Tumbuh Dengan Volume", "Mata yang tajam lahir dari banyak keputusan.", "Produksi memberi lebih banyak kesempatan untuk mengenali apa yang benar-benar bekerja.", "Tambah satu repetisi berkualitas."],
+      ["Satu Upload Lebih Baik", "Rencana yang indah tetap membutuhkan bukti.", "Satu karya terbit memberi data, pengalaman, dan keberanian nyata.", "Pilih upload yang bisa selesai hari ini."],
+      ["Jangan Remehkan Progress", "Perubahan kecil sulit terlihat dari jarak dekat.", "Bandingkan dengan karya lama untuk menyadari seberapa jauh kamu sudah bergerak.", "Buka karya enam bulan lalu."],
+      ["Besok Butuh Karya Hari Ini", "Masa depan creator dibangun oleh pilihan yang terasa biasa.", "Setiap latihan hari ini mempersingkat jarak menuju kemampuan berikutnya.", "Kerjakan satu hal untuk dirimu besok."],
+    ],
+  },
+  culture: {
+    pillar: "Clipper Culture",
+    hashtag: "#ClipperCulture #BuzzerKlip",
+    ideas: [
+      ["Kami Adalah Para Clipper", "Kami melihat momen yang sering dilewati orang lain.", "Kami memotong bukan untuk mengecilkan cerita, tetapi untuk membuat intinya terdengar.", "Tunjukkan caramu melihat."],
+      ["Potong Dengan Rasa", "Teknik membuat edit rapi; rasa membuatnya hidup.", "Kepekaan pada napas, emosi, dan konteks adalah identitas seorang clipper.", "Jaga rasa di setiap cut."],
+      ["Cepat Bukan Asal", "Kecepatan adalah hasil dari keputusan yang terlatih.", "Kami bergerak cepat karena tahu apa yang perlu dipertahankan.", "Potong tegas, tetap peka."],
+      ["Creator Tidak Menunggu Izin", "Ide tidak memerlukan panggung besar untuk dimulai.", "Kami membuat ruang sendiri melalui karya yang terus hadir.", "Ambil ruangmu hari ini."],
+      ["Feed Adalah Kanvas", "Setiap post menambah warna pada identitas creator.", "Kami menyusun feed seperti cerita panjang yang tumbuh satu frame sekali.", "Tambahkan frame berikutnya."],
+      ["Ritme Adalah Bahasa", "Sebelum kata selesai dipahami, tempo sudah lebih dulu terasa.", "Clipper berbicara melalui jeda, cut, dan perubahan energi.", "Buat ritmemu dikenali."],
+      ["Detail Adalah Sikap", "Hal kecil menunjukkan seberapa serius kita menghargai penonton.", "Crop, audio, credit, dan caption adalah bagian dari karakter kerja.", "Rapikan satu detail terakhir."],
+      ["Original Bukan Berarti Aneh", "Keaslian adalah pilihan yang konsisten, bukan kejutan kosong.", "Kami mengambil inspirasi lalu menerjemahkannya dengan pengalaman sendiri.", "Buat sesuatu yang terasa kamu."],
+      ["Kerja Sunyi Tampil Nyaring", "Banyak jam tak terlihat hidup di balik beberapa detik karya.", "Ketika clip tayang, semua latihan sunyi menemukan suaranya.", "Hormati proses di balik layar."],
+      ["Potong Posting Tumbuh", "Tiga kata ini bukan slogan kosong, tetapi siklus creator.", "Pilih momen, kirim karya, baca respons, lalu kembali lebih tajam.", "Mulai siklus berikutnya."],
+    ],
+  },
+};
+
+const carouselHeadlineSets = {
+  education: ["MASALAHNYA", "KUNCINYA", "COBA BEGINI", "GILIRAN KAMU"],
+  mindset: ["YANG SERING TERASA", "INGAT INI", "LANGKAH KECIL", "BAWA PULANG"],
+  relatable: ["KITA PERNAH", "RASANYA BEGINI", "NGAKU AJA", "GILIRAN CERITA"],
+  community: ["KITA BERTEMU", "YANG KITA BANGUN", "GERAK BARENG", "AJAK SATU ORANG"],
+  brand: ["KENAPA ADA", "YANG KAMI PERCAYA", "RUANG UNTUKMU", "MASUK KE DALAM"],
+  challenge: ["ATURANNYA", "TARGETNYA", "MULAI SEKARANG", "TUNJUKKAN HASIL"],
+  story: ["AWALNYA", "LALU BERUBAH", "YANG TERTINGGAL", "CERITAMU BERIKUTNYA"],
+  motivation: ["SAAT TERASA BERAT", "PEGANG INI", "SATU LANGKAH", "TERUS BERGERAK"],
+  culture: ["INI CARA KAMI", "YANG KAMI JAGA", "BENTUK SIKAPMU", "JADILAH BAGIAN"],
+};
+
+const carouselEndings = {
+  education: "Simpan carousel ini, lalu praktikkan di clip berikutnya.",
+  mindset: "Simpan kalimat yang ingin kamu ingat saat ragu datang lagi.",
+  relatable: "Bagikan ke teman creator yang pasti memahami rasanya.",
+  community: "Tandai satu creator yang ingin kamu ajak tumbuh bersama.",
+  brand: "Bawa karya dan karakter terbaikmu ke Buzzer Klip.",
+  challenge: "Tandai Buzzer Klip ketika hasil tantanganmu sudah tayang.",
+  story: "Setiap creator punya cerita; lanjutkan punyamu hari ini.",
+  motivation: "Kembali ke karya, satu langkah sederhana pada satu waktu.",
+  culture: "Potong dengan rasa, posting dengan berani, tumbuh bersama.",
+};
+
 const items = [];
 let id = 1;
 for (const pillar of pillars) {
-  for (const [title, hook, insight, cta] of pillar.ideas) {
+  for (const [sourceTitle, sourceHook, sourceInsight, sourceCta] of pillar.ideas) {
+    const contentTheme = contentThemeCycle[(id - 1) % contentThemeCycle.length];
+    const bankIndex = Math.floor((id - 1) / contentThemeCycle.length);
+    const bank = contentTheme === "education" ? null : contentBanks[contentTheme];
+    const [title, hook, insight, cta] = bank
+      ? bank.ideas[bankIndex]
+      : [sourceTitle, sourceHook, sourceInsight, sourceCta];
+    const selectedPillar = bank?.pillar || pillar.name;
+    const selectedHashtag = bank?.hashtag || pillar.hashtag;
+    const subjectFamily = subjectFamilyCycle[(id - 1) % subjectFamilyCycle.length];
+    const [stepOne, stepTwo, stepThree, stepFour] = carouselHeadlineSets[contentTheme];
     const date = new Date(start);
     date.setUTCDate(start.getUTCDate() + id - 1);
     const isoDate = date.toISOString().slice(0, 10);
-    const format = "abstract_human";
+    const format = "mixed_abstract";
     const postType = postTypes[id - 1];
     const dayKey = `day-${String(id).padStart(3, "0")}`;
     const assets =
@@ -238,14 +412,14 @@ for (const pillar of pillars) {
     const slides =
       postType === "carousel"
         ? [
-            { role: "cover", headline: title, body: campaignTheme },
-            { role: "problem", headline: "MASALAHNYA", body: hook },
-            { role: "principle", headline: "KUNCINYA", body: insight },
-            { role: "action", headline: "COBA BEGINI", body: cta },
+            { role: "cover", headline: title, body: selectedPillar },
+            { role: "problem", headline: stepOne, body: hook },
+            { role: "principle", headline: stepTwo, body: insight },
+            { role: "action", headline: stepThree, body: cta },
             {
               role: "cta",
-              headline: "GILIRAN KAMU",
-              body: "Simpan carousel ini, lalu praktikkan di clip berikutnya.",
+              headline: stepFour,
+              body: carouselEndings[contentTheme],
             },
           ].map((slide, slideIndex) => ({ ...slide, asset: assets[slideIndex] }))
         : [
@@ -256,8 +430,8 @@ for (const pillar of pillars) {
               asset: assets[0],
             },
           ];
-    const [tag1, tag2] = pillar.hashtag.split(" ");
-    const item = {
+    const [tag1, tag2] = selectedHashtag.split(" ");
+    let item = {
       id,
       date: isoDate,
       time_wib: "09:00",
@@ -268,7 +442,8 @@ for (const pillar of pillars) {
       day_in_week: ((id - 1) % 7) + 1,
       format,
       title,
-      pillar: pillar.name,
+      pillar: selectedPillar,
+      content_theme: contentTheme,
       campaign_theme: campaignTheme,
       approval_required: true,
       approval_status: "approved",
@@ -276,10 +451,10 @@ for (const pillar of pillars) {
       assets,
       slides,
       slide_count: assets.length,
-      asset_version: "buzzer-klip-abstract-human-v1",
-      visual_revision: "cinematic-neon-abstract-human-v1",
-      visual_theme: "cinematic neon abstract human",
-      subject_type: "faceless adult abstract human",
+      asset_version: "buzzer-klip-mixed-abstract-v2",
+      visual_revision: "cinematic-neon-mixed-abstract-v2",
+      visual_theme: "cinematic neon mixed abstract",
+      subject_family: subjectFamily,
       audio: {
         requested: true,
         selection: "trending",
@@ -295,7 +470,9 @@ for (const pillar of pillars) {
       final_caption: `${hook} ${insight}\n\n${cta}\n\n${tag1} ${tag2}`,
     };
     const existing = existingById.get(id);
-    if (
+    if (existing?.status === "published") {
+      item = existing;
+    } else if (
       existing &&
       existing.title === item.title &&
       existing.date === item.date &&
