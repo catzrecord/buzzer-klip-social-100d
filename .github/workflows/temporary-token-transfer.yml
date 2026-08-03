@@ -1,0 +1,59 @@
+name: Temporary encrypted Meta token transfer
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  transfer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+      META_TOKEN_ENCRYPTION_KEY: ${{ secrets.META_TOKEN_ENCRYPTION_KEY }}
+      INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+      META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION || 'v25.0' }}
+      META_GRAPH_HOST: ${{ vars.META_GRAPH_HOST || 'graph.instagram.com' }}
+      META_TOKEN_FORCE_REFRESH: "false"
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+
+      - name: Load and verify renewable Meta token
+        run: node scripts/prepare_meta_token.mjs
+
+      - name: Encrypt token for one-time transfer
+        env:
+          TRANSFER_PUBLIC_KEY_B64: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQ0lqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FnOEFNSUlDQ2dLQ0FnRUF3bEF4Rm9oRVlERkJLSmN3NCtDbgpnQythV2M0ZC80SHhxdjFaQjBOR0lXeUE5ZnRjVzQ1dHlwWUZsTjE1cGNLS0RHaUNEUC9qci8zbFo0UExuWHJDCm9SUm1YcUdkWnVvZDZwbDExbk9iN3hKTmkza3RYV2VNQ2hVWkhMZWJmMnRaeVNxeGdER0FVL3BsWm4xQTBXQVEKWmRteGcvZUpudjY5MGdUUG81eVYxSDZScDdlMmFvMi9wUE9QSW9JTDdqUnFyQTh3ME8ydFExUC9uY1hzdlFYNwpIWTJFeXR5MHBRaUJiNnlVUk9PNjZ1cUdxdi8xaEFVZm43VS9zWUd3ak5wWjFkdjA1V1BDZXFNODZ1alUwRUtYCmU1Umh3Q3h5alpWemZRNUp1emNxd05ZamIzYzd0YVZNUVM1VXhIVjl0MWNxeElEYS9VdEJJSWJVREJHOXB4RlUKMlRnbEp0NjNzN0hKQ3VQOUdGTXRsRDNpVGtHblRSelRMTStLZzZxK3RuTU5ITWRCNkFlMFh4WnNmdmZpdkM5Rwp4T3RnWlpNVWR2RXAzVlJUTGFJQlZZMzlHYzc5VUM4eVRrSzlGYTJHc01laGxzN2RZWS9GVFQ4SVB4RHAwNEVYCnpBQlI0dVRNM3JwSTF6YVRScTluTk9nalExMGxKZ2pPY3h1RUJtZUd2MFZXaC9ab09CNzNwTEo5S0d3bm5YZVcKUDlKY3I3WEdsYjAwU0hNaGIyVjc0ajYyeTl6SXJiQzBmOElrakxCSGpvcGhrZ3lOd0VRQWVhTXRvd3EycFh1KwpnOHBnYXVOd1JpdnQvRkFsS05jMUZicFlHVGFzZktFY3FrclFVV05TcW5vMy9QSEt1RzhLV2dYTVFzZWlyRFNCCktsTzhMcFVINFVMWlFUNFA3a2tpVkE4Q0F3RUFBUT09Ci0tLS0tRU5EIFBVQkxJQyBLRVktLS0tLQo=
+        shell: bash
+        run: |
+          node <<'NODE'
+          const crypto = require("node:crypto");
+          const fs = require("node:fs");
+          const token = process.env.META_ACCESS_TOKEN;
+          if (!token) throw new Error("META_ACCESS_TOKEN is empty");
+          const publicKey = Buffer.from(process.env.TRANSFER_PUBLIC_KEY_B64, "base64").toString("utf8");
+          const encrypted = crypto.publicEncrypt(
+            {
+              key: publicKey,
+              padding: crypto.constants.RSA_PKCS1_OAEP_PADDING,
+              oaepHash: "sha256",
+            },
+            Buffer.from(token, "utf8"),
+          );
+          fs.writeFileSync("meta-token.enc.b64", `${encrypted.toString("base64")}\n`, { mode: 0o600 });
+          NODE
+
+      - name: Upload encrypted transfer package
+        uses: actions/upload-artifact@v4
+        with:
+          name: encrypted-meta-token
+          path: meta-token.enc.b64
+          retention-days: 1
+          if-no-files-found: error
