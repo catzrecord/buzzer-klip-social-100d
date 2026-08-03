@@ -8,9 +8,9 @@
     "post_type": "carousel",
     "week_number": 1,
     "day_in_week": 1,
-    "format": "image_only_abstract",
-    "title": "3 Detik Pertama Menentukan",
-    "pillar": "Hook yang Nempel",
+    "format": "image_text_abstract",
+    "title": "4 Elemen Bikin Clip Susah Di-skip",
+    "pillar": "Editing Clipper",
     "campaign_theme": "Potong. Posting. Cuan.",
     "approval_required": true,
     "approval_status": "approved",
@@ -25,39 +25,39 @@
     "slides": [
       {
         "role": "cover",
-        "headline": "3 Detik Pertama Menentukan",
-        "body": "Potong. Posting. Cuan.",
+        "headline": "4 Elemen Bikin Clip Susah Di-skip",
+        "body": "Bukan soal efek ramai. Ini struktur dasarnya.",
         "asset": "posts/buzzer-klip-100d/day-001/slide-01.jpg"
       },
       {
-        "role": "problem",
-        "headline": "MASALAHNYA",
-        "body": "Kalau pembuka masih muter-muter, penonton sudah keburu swipe.",
+        "role": "point",
+        "headline": "Hook Jelas",
+        "body": "❌ Mulai dari konteks panjang. ✓ Buka dengan konflik, hasil, atau momen terkuat.",
         "asset": "posts/buzzer-klip-100d/day-001/slide-02.jpg"
       },
       {
-        "role": "principle",
-        "headline": "KUNCINYA",
-        "body": "Mulai dengan konflik, hasil, atau kalimat yang bikin orang merasa sedang diajak bicara.",
+        "role": "point",
+        "headline": "Visual Bergerak",
+        "body": "❌ Satu frame diam terlalu lama. ✓ Ubah ukuran, arah, atau fokus saat energi turun.",
         "asset": "posts/buzzer-klip-100d/day-001/slide-03.jpg"
       },
       {
-        "role": "action",
-        "headline": "COBA BEGINI",
-        "body": "Coba cek tiga detik pertama videomu hari ini.",
+        "role": "point",
+        "headline": "Ritme Terjaga",
+        "body": "❌ Semua potongan sama cepat. ✓ Percepat buildup, beri jeda di momen penting.",
         "asset": "posts/buzzer-klip-100d/day-001/slide-04.jpg"
       },
       {
-        "role": "cta",
-        "headline": "GILIRAN KAMU",
-        "body": "Simpan carousel ini, lalu praktikkan di clip berikutnya.",
+        "role": "point",
+        "headline": "Subtitle Enak",
+        "body": "❌ Teks kecil dan panjang. ✓ Pakai frasa pendek, lalu sorot kata kunci.",
         "asset": "posts/buzzer-klip-100d/day-001/slide-05.jpg"
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-image-only-abstract-v3",
-    "visual_revision": "cinematic-image-only-abstract-v3",
-    "visual_theme": "cinematic abstract people and symbols, image only",
+    "asset_version": "buzzer-klip-web-brand-content-v5",
+    "visual_revision": "website-brand-image-text-v5",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over abstract people and symbols",
     "subject_type": "faceless adult abstract human",
     "audio": {
       "requested": true,
@@ -71,13 +71,13 @@
       "native_search": "focused cinematic pulse, electronic instrumental, 94 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Kalau pembuka masih muter-muter, penonton sudah keburu swipe. Mulai dengan konflik, hasil, atau kalimat yang bikin orang merasa sedang diajak bicara.\n\nCoba cek tiga detik pertama videomu hari ini.\n\n#HookKonten #BuzzerKlip",
-    "content_theme": "story",
+    "final_caption": "Clip yang enak ditonton biasanya bukan yang paling ramai—tapi yang paling jelas.\n\nCek empat hal: hook, perubahan visual, ritme potongan, dan subtitle. Mulai dari satu bagian yang paling lemah, lalu revisi.\n\nSimpan buat checklist edit berikutnya. Bagian mana yang paling sering kamu lewatkan?\n\n#TipsClipper #BuzzerKlip #EditingVideo",
+    "content_theme": "education",
     "subject_family": "human",
     "manual_asset_lock": true,
-    "in_art_text": "none",
-    "in_art_logo": "none",
-    "art_direction": "Full-frame abstract people and abstract symbols; no typography, no logos, no badges, no social-media marks.",
+    "in_art_text": "concise educational headline, practical checks, and light CTA",
+    "in_art_logo": "Buzzer Klip transparent logo only",
+    "art_direction": "Image-led abstract people and symbols with concise Plus Jakarta Sans copy using the exact Buzzer Klip website palette; no third-party logos or borrowed marks.",
     "replacement_history": [
       {
         "deleted_instagram_media_id": "17999060186972691",
@@ -100,9 +100,9 @@
     "post_type": "single",
     "week_number": 1,
     "day_in_week": 2,
-    "format": "image_only_abstract",
-    "title": "Buka Dengan Hasil",
-    "pillar": "Hook yang Nempel",
+    "format": "image_text_abstract",
+    "title": "Hook Bagus Bukan Yang Paling Keras",
+    "pillar": "Creator Mindset",
     "campaign_theme": "Potong. Posting. Cuan.",
     "approval_required": true,
     "approval_status": "approved",
@@ -113,15 +113,15 @@
     "slides": [
       {
         "role": "single",
-        "headline": "Buka Dengan Hasil",
-        "body": "Penonton suka tahu alasan untuk bertahan.",
+        "headline": "Hook Bagus Bukan Yang Paling Keras",
+        "body": "Yang paling jelas biasanya paling lama ditonton.",
         "asset": "posts/buzzer-klip-100d/day-002.jpg"
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-image-only-abstract-v3",
-    "visual_revision": "cinematic-image-only-abstract-v3",
-    "visual_theme": "cinematic abstract people and symbols, image only",
+    "asset_version": "buzzer-klip-web-brand-content-v5",
+    "visual_revision": "website-brand-image-text-v5",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over abstract people and symbols",
     "subject_type": "faceless adult abstract human",
     "audio": {
       "requested": true,
@@ -135,13 +135,13 @@
       "native_search": "fast creator momentum, electronic instrumental, 112 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Penonton suka tahu alasan untuk bertahan. Tampilkan hasil atau janji paling jelas sebelum masuk ke proses. Rasa penasaran langsung punya arah.\n\nSimpan pola ini untuk clip berikutnya.\n\n#HookKonten #BuzzerKlip",
-    "content_theme": "brand",
+    "final_caption": "Hook yang efektif nggak selalu paling keras. Yang penting, penonton langsung tahu kenapa mereka perlu bertahan.\n\nCoba mulai dengan hasil yang ingin dilihat, konflik yang terasa dekat, atau momen paling kuat dari videomu.\n\nKamu lebih sering buka dengan hasil atau konflik?\n\n#HookKonten #BuzzerKlip #CreatorMindset",
+    "content_theme": "mindset",
     "subject_family": "scene",
     "manual_asset_lock": true,
-    "in_art_text": "none",
-    "in_art_logo": "none",
-    "art_direction": "Full-frame abstract people and abstract symbols; no typography, no logos, no badges, no social-media marks.",
+    "in_art_text": "concise educational headline, practical checks, and light CTA",
+    "in_art_logo": "Buzzer Klip transparent logo only",
+    "art_direction": "Image-led abstract people and symbols with concise Plus Jakarta Sans copy using the exact Buzzer Klip website palette; no third-party logos or borrowed marks.",
     "replacement_history": [
       {
         "deleted_instagram_media_id": "18090191957117491",
@@ -164,9 +164,9 @@
     "post_type": "carousel",
     "week_number": 1,
     "day_in_week": 3,
-    "format": "image_only_abstract",
-    "title": "Kalimat Yang Menggigit",
-    "pillar": "Hook yang Nempel",
+    "format": "image_text_abstract",
+    "title": "Clip Ramai Belum Tentu Menarik",
+    "pillar": "Editing Clipper",
     "campaign_theme": "Potong. Posting. Cuan.",
     "approval_required": true,
     "approval_status": "approved",
@@ -181,39 +181,39 @@
     "slides": [
       {
         "role": "cover",
-        "headline": "Kalimat Yang Menggigit",
-        "body": "Potong. Posting. Cuan.",
+        "headline": "Clip Ramai Belum Tentu Menarik",
+        "body": "Cek tiga tanda sebelum kamu upload.",
         "asset": "posts/buzzer-klip-100d/day-003/slide-01.jpg"
       },
       {
-        "role": "problem",
-        "headline": "MASALAHNYA",
-        "body": "Hook bukan sekadar kalimat besar; hook adalah pintu masuk.",
+        "role": "point",
+        "headline": "Semua Ditonjolkan",
+        "body": "❌ Semua elemen berebut perhatian. ✓ Tentukan satu pusat perhatian.",
         "asset": "posts/buzzer-klip-100d/day-003/slide-02.jpg"
       },
       {
-        "role": "principle",
-        "headline": "KUNCINYA",
-        "body": "Pilih satu frasa yang tajam, singkat, dan punya ketegangan. Jangan jelaskan semuanya di awal.",
+        "role": "point",
+        "headline": "Efek Tanpa Alasan",
+        "body": "❌ Transisi hanya supaya ramai. ✓ Pakai efek untuk menegaskan cerita.",
         "asset": "posts/buzzer-klip-100d/day-003/slide-03.jpg"
       },
       {
-        "role": "action",
-        "headline": "COBA BEGINI",
-        "body": "Tulis satu hook versi kamu di komentar.",
+        "role": "point",
+        "headline": "Tanpa Ruang Napas",
+        "body": "❌ Semua detik dipenuhi suara dan gerakan. ✓ Sisakan jeda di momen penting.",
         "asset": "posts/buzzer-klip-100d/day-003/slide-04.jpg"
       },
       {
-        "role": "cta",
-        "headline": "GILIRAN KAMU",
-        "body": "Simpan carousel ini, lalu praktikkan di clip berikutnya.",
+        "role": "fix",
+        "headline": "Satu Ide Utama",
+        "body": "❌ Menjelaskan semuanya sekaligus. ✓ Pilih satu pesan, lalu arahkan semua elemen ke sana.",
         "asset": "posts/buzzer-klip-100d/day-003/slide-05.jpg"
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-image-only-abstract-v3",
-    "visual_revision": "cinematic-image-only-abstract-v3",
-    "visual_theme": "cinematic abstract people and symbols, image only",
+    "asset_version": "buzzer-klip-web-brand-content-v5",
+    "visual_revision": "website-brand-image-text-v5",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over abstract people and symbols",
     "subject_type": "faceless adult abstract human",
     "audio": {
       "requested": true,
@@ -227,13 +227,13 @@
       "native_search": "precise digital confidence, electronic instrumental, 100 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Hook bukan sekadar kalimat besar; hook adalah pintu masuk. Pilih satu frasa yang tajam, singkat, dan punya ketegangan. Jangan jelaskan semuanya di awal.\n\nTulis satu hook versi kamu di komentar.\n\n#HookKonten #BuzzerKlip",
-    "content_theme": "culture",
+    "final_caption": "Terlalu banyak efek bisa membuat ide utama justru hilang. Clip yang kuat memberi mata dan telinga satu arah yang jelas.\n\nKalau editan terasa penuh, coba buang satu elemen dulu. Sisakan yang benar-benar membantu cerita.\n\nYang paling sering bikin clipmu penuh: teks, efek, atau transisi?\n\n#TipsEditing #BuzzerKlip #ClipperIndonesia",
+    "content_theme": "relatable",
     "subject_family": "human",
     "manual_asset_lock": true,
-    "in_art_text": "none",
-    "in_art_logo": "none",
-    "art_direction": "Full-frame abstract people and abstract symbols; no typography, no logos, no badges, no social-media marks.",
+    "in_art_text": "concise educational headline, practical checks, and light CTA",
+    "in_art_logo": "Buzzer Klip transparent logo only",
+    "art_direction": "Image-led abstract people and symbols with concise Plus Jakarta Sans copy using the exact Buzzer Klip website palette; no third-party logos or borrowed marks.",
     "replacement_history": [
       {
         "deleted_instagram_media_id": "17986789650011869",
@@ -276,9 +276,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -323,9 +323,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -370,9 +370,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -445,9 +445,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -520,9 +520,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -595,9 +595,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -670,9 +670,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -717,9 +717,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -764,9 +764,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -811,9 +811,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -858,9 +858,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -905,9 +905,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -980,9 +980,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -1055,9 +1055,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -1130,9 +1130,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -1177,9 +1177,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -1224,9 +1224,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -1271,9 +1271,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -1346,9 +1346,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -1421,9 +1421,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -1468,9 +1468,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -1515,9 +1515,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -1562,9 +1562,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -1609,9 +1609,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -1684,9 +1684,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -1731,9 +1731,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -1806,9 +1806,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -1853,9 +1853,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -1900,9 +1900,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -1975,9 +1975,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -2022,9 +2022,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -2097,9 +2097,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -2172,9 +2172,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -2219,9 +2219,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -2266,9 +2266,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -2341,9 +2341,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -2416,9 +2416,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -2463,9 +2463,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -2510,9 +2510,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -2557,9 +2557,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -2632,9 +2632,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -2679,9 +2679,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -2754,9 +2754,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -2801,9 +2801,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -2848,9 +2848,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -2923,9 +2923,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -2970,9 +2970,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -3017,9 +3017,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -3092,9 +3092,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -3139,9 +3139,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -3186,9 +3186,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -3261,9 +3261,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -3336,9 +3336,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -3383,9 +3383,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -3430,9 +3430,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -3477,9 +3477,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -3552,9 +3552,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -3627,9 +3627,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -3702,9 +3702,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -3749,9 +3749,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -3796,9 +3796,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -3871,9 +3871,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -3918,9 +3918,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -3993,9 +3993,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -4040,9 +4040,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -4115,9 +4115,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -4162,9 +4162,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -4237,9 +4237,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -4312,9 +4312,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -4359,9 +4359,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -4434,9 +4434,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -4481,9 +4481,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -4528,9 +4528,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -4575,9 +4575,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -4622,9 +4622,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -4669,9 +4669,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -4716,9 +4716,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -4791,9 +4791,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -4866,9 +4866,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -4913,9 +4913,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -4988,9 +4988,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -5035,9 +5035,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -5082,9 +5082,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -5129,9 +5129,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -5204,9 +5204,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -5279,9 +5279,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -5326,9 +5326,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -5401,9 +5401,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -5448,9 +5448,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -5523,9 +5523,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -5570,9 +5570,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -5645,9 +5645,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -5692,9 +5692,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -5767,9 +5767,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,
@@ -5814,9 +5814,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "scene",
     "audio": {
       "requested": true,
@@ -5861,9 +5861,9 @@
       }
     ],
     "slide_count": 1,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "object",
     "audio": {
       "requested": true,
@@ -5936,9 +5936,9 @@
       }
     ],
     "slide_count": 5,
-    "asset_version": "buzzer-klip-mixed-abstract-v2",
-    "visual_revision": "cinematic-neon-mixed-abstract-v2",
-    "visual_theme": "cinematic neon mixed abstract",
+    "asset_version": "buzzer-klip-web-brand-mixed-v6",
+    "visual_revision": "website-brand-mixed-abstract-v6",
+    "visual_theme": "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
     "subject_family": "human",
     "audio": {
       "requested": true,

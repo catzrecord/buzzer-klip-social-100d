@@ -451,9 +451,9 @@ for (const pillar of pillars) {
       assets,
       slides,
       slide_count: assets.length,
-      asset_version: "buzzer-klip-mixed-abstract-v2",
-      visual_revision: "cinematic-neon-mixed-abstract-v2",
-      visual_theme: "cinematic neon mixed abstract",
+      asset_version: "buzzer-klip-web-brand-mixed-v6",
+      visual_revision: "website-brand-mixed-abstract-v6",
+      visual_theme: "Buzzer Klip website palette and Plus Jakarta Sans over cinematic mixed abstract art",
       subject_family: subjectFamily,
       audio: {
         requested: true,

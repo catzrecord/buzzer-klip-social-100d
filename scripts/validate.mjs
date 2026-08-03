@@ -14,14 +14,16 @@ for (const item of plan) {
   if (!item.final_caption || !item.final_caption.trim()) throw new Error(`Blank caption ${item.id}`);
   const isLockedImageOnly =
     item.manual_asset_lock === true &&
-    item.format === "image_only_abstract" &&
-    item.visual_revision === "cinematic-image-only-abstract-v3";
+    ["image_only_abstract", "image_text_abstract"].includes(item.format) &&
+    ["cinematic-image-only-abstract-v3", "website-brand-image-text-v5"].includes(
+      item.visual_revision,
+    );
   if (item.status === "queued_auto" && item.format !== "mixed_abstract" && !isLockedImageOnly) {
     throw new Error(`Queued post ${item.id} is not using mixed-abstract format`);
   }
   if (
     item.status === "queued_auto" &&
-    item.visual_revision !== "cinematic-neon-mixed-abstract-v2" &&
+    item.visual_revision !== "website-brand-mixed-abstract-v6" &&
     !isLockedImageOnly
   ) {
     throw new Error(`Queued post ${item.id} has the wrong visual revision`);

@@ -43,14 +43,14 @@ SCENE_SOURCE_PATHS = [
 SOURCE_PATHS = PEOPLE_SOURCE_PATHS + OBJECT_SOURCE_PATHS + SCENE_SOURCE_PATHS
 
 W, H = 1080, 1350
-BLACK = (3, 4, 5)
-WHITE = (247, 246, 242)
-LIME = (200, 255, 0)
-PINK = (255, 39, 131)
-CYAN = (0, 216, 239)
-LAVENDER = (175, 140, 255)
+BLACK = (10, 10, 10)
+WHITE = (253, 251, 247)
+LIME = (212, 255, 0)
+PINK = (255, 42, 122)
+CYAN = (0, 229, 255)
+LAVENDER = (185, 162, 255)
 PALETTE = [LIME, PINK, CYAN, LAVENDER]
-AVENIR = "/System/Library/Fonts/Avenir Next.ttc"
+PLUS_JAKARTA = ROOT / "assets" / "fonts" / "PlusJakartaSans-Variable.ttf"
 
 ROLE_LABELS = {
     "cover": "CREATOR INSIGHT",
@@ -74,8 +74,13 @@ THEME_LABELS = {
 
 
 def font(size: int, weight: str = "bold") -> ImageFont.FreeTypeFont:
-    indexes = {"heavy": 8, "bold": 0, "demi": 2, "medium": 5, "regular": 7}
-    return ImageFont.truetype(AVENIR, size=size, index=indexes[weight])
+    variations = {
+        "heavy": "ExtraBold", "bold": "Bold", "demi": "SemiBold",
+        "medium": "Medium", "regular": "Regular",
+    }
+    face = ImageFont.truetype(str(PLUS_JAKARTA), size=size)
+    face.set_variation_by_name(variations[weight])
+    return face
 
 
 def text_width(draw: ImageDraw.ImageDraw, text: str, face: ImageFont.FreeTypeFont) -> int:
@@ -181,17 +186,13 @@ def add_logo(image: Image.Image, logo: Image.Image) -> None:
 def add_header(image: Image.Image, label: str, accent) -> None:
     draw = ImageDraw.Draw(image)
     label = label.upper()
-    face = font(21, "demi")
-    while text_width(draw, label, face) > 300 and face.size > 16:
+    face = font(20, "bold")
+    while text_width(draw, label, face) > 310 and face.size > 15:
         face = font(face.size - 1, "demi")
-    pill_width = text_width(draw, label, face) + 67
     right = W - 53
-    left = right - pill_width
-    draw.rounded_rectangle((left + 7, 60, right + 7, 102), 13, fill=(0, 0, 0, 125))
-    draw.rounded_rectangle((left, 53, right, 95), 13, fill=accent)
-    draw.ellipse((left + 16, 68, left + 27, 79), fill=BLACK)
-    draw.text((left + 37, 62), label, font=face, fill=BLACK)
-    draw.text((right, 118), "buzzer-klip.com", font=font(23, "medium"), fill=WHITE, anchor="ra")
+    left = right - text_width(draw, label, face)
+    draw.text((right, 58), label, font=face, fill=WHITE, anchor="ra")
+    draw.rounded_rectangle((left, 94, right, 101), 4, fill=accent)
 
 
 def add_progress(draw: ImageDraw.ImageDraw, accent, y: int, slide_index: int, slide_count: int) -> None:
@@ -284,7 +285,7 @@ def save_jpeg(image: Image.Image, path: Path) -> None:
 
 def main() -> None:
     plan = json.loads(PLAN_PATH.read_text())
-    missing = [str(path) for path in SOURCE_PATHS if not path.exists()]
+    missing = [str(path) for path in [*SOURCE_PATHS, PLUS_JAKARTA] if not path.exists()]
     if missing:
         raise FileNotFoundError("Missing mixed-abstract sources: " + ", ".join(missing))
     logo = Image.open(LOGO_PATH).convert("RGBA")

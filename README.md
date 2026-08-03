@@ -4,7 +4,7 @@ Cloud-hosted daily Instagram publishing queue for Buzzer Klip.
 
 ## Editorial system
 
-**Potong. Posting. Cuan.** remains the umbrella idea. The queue now uses a cinematic mixed-abstract system: anonymous figures, creator objects, editing symbols, portals, devices, energy forms, and atmospheric scenes. Neon lime/cyan/magenta/lavender light, volumetric smoke, strong editorial typography, and the transparent Buzzer Klip PNG logo keep the feed cohesive without repeating one subject.
+**Potong. Posting. Cuan.** remains the umbrella idea. The queue now uses a cinematic mixed-abstract system: anonymous figures, creator objects, editing symbols, portals, devices, energy forms, and atmospheric scenes. The graphics use the live Buzzer Klip website system: Plus Jakarta Sans with ink `#0A0A0A`, lime `#D4FF00`, pink `#FF2A7A`, cyan `#00E5FF`, lavender `#B9A2FF`, and cream `#FDFBF7`. The transparent Buzzer Klip mark is the only logo used in the artwork.
 
 This is intentionally separate from the Lajora visual system.
 
@@ -34,6 +34,8 @@ npm run validate:assets
 
 `npm run campaign` regenerates the original audio pack, deterministic content plan,
 all mixed-abstract artwork, validation, and the public preview dashboard.
+
+`npm run live:content` rebuilds the manually locked first three image-led educational creatives. Their concise checks and light CTAs remain protected when the rest of the queue is regenerated.
 
 `npm run validate` checks the 100-day editorial structure before artwork production.
 `npm run validate:assets` additionally requires every single image and every carousel slide to exist.

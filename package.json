@@ -9,6 +9,7 @@
     "plan": "node scripts/generate_plan.mjs",
     "audio": "python3 scripts/generate_audio_pack.py",
     "assets": "python3 scripts/generate_mixed_abstract_assets.py",
+    "live:content": "python3 scripts/render_live_content_v5.py",
     "campaign": "npm run audio && npm run plan && npm run assets && npm run validate:assets && npm run build"
   }
 }
