@@ -116,7 +116,7 @@
     "date": "2026-08-03",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 1,
     "day_in_week": 3,
@@ -175,7 +175,11 @@
       "graph_api_attachment": false,
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Hook bukan sekadar kalimat besar; hook adalah pintu masuk. Pilih satu frasa yang tajam, singkat, dan punya ketegangan. Jangan jelaskan semuanya di awal.\n\nTulis satu hook versi kamu di komentar.\n\n#HookKonten #BuzzerKlip"
+    "final_caption": "Hook bukan sekadar kalimat besar; hook adalah pintu masuk. Pilih satu frasa yang tajam, singkat, dan punya ketegangan. Jangan jelaskan semuanya di awal.\n\nTulis satu hook versi kamu di komentar.\n\n#HookKonten #BuzzerKlip",
+    "instagram_media_id": "17986789650011869",
+    "instagram_url": "https://www.instagram.com/p/DbkR-SClrjN/",
+    "published_at": "2026-08-03T05:52:11+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 4,
