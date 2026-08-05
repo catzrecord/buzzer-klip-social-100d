@@ -321,7 +321,7 @@
     "date": "2026-08-05",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 1,
     "day_in_week": 5,
@@ -361,7 +361,11 @@
       "native_search": "calm concentrated energy, electronic instrumental, 88 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Setiap potongan membawa sudut pandang baru. Buzzer Klip menjadi titik temu untuk karya, creator, dan peluang yang terus bergerak.\n\nTunjukkan clip terbaikmu.\n\n#BuzzerKlip #CreatorIndonesia"
+    "final_caption": "Setiap potongan membawa sudut pandang baru. Buzzer Klip menjadi titik temu untuk karya, creator, dan peluang yang terus bergerak.\n\nTunjukkan clip terbaikmu.\n\n#BuzzerKlip #CreatorIndonesia",
+    "instagram_media_id": "18127358653662526",
+    "instagram_url": "https://www.instagram.com/p/DbqNfMfIBsV/",
+    "published_at": "2026-08-05T13:08:24+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 6,
