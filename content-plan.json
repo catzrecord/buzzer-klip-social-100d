@@ -423,7 +423,7 @@
     "date": "2026-08-07",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 1,
     "day_in_week": 7,
@@ -491,7 +491,11 @@
       "native_search": "optimistic neon lift, electronic instrumental, 110 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Buat pembuka yang langsung memberi alasan untuk bertahan. Pilih konflik, hasil, atau pertanyaan; jangan gunakan salam panjang.\n\nUpload hasilmu dan tandai Buzzer Klip.\n\n#CreatorChallenge #BuzzerKlip"
+    "final_caption": "Buat pembuka yang langsung memberi alasan untuk bertahan. Pilih konflik, hasil, atau pertanyaan; jangan gunakan salam panjang.\n\nUpload hasilmu dan tandai Buzzer Klip.\n\n#CreatorChallenge #BuzzerKlip",
+    "instagram_media_id": "18108922970043548",
+    "instagram_url": "https://www.instagram.com/p/DbvP3zimwuO/",
+    "published_at": "2026-08-07T12:05:25+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 8,
