@@ -502,7 +502,7 @@
     "date": "2026-08-08",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 2,
     "day_in_week": 1,
@@ -570,7 +570,11 @@
       "native_search": "clean high-speed workflow, electronic instrumental, 120 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Mesinnya lambat, tetapi rasa ingin membuat bergerak lebih cepat. Keterbatasan mengajarkan creator memilih hal yang benar-benar penting.\n\nApa alat pertama yang kamu pakai?\n\n#CreatorStories #BuzzerKlip"
+    "final_caption": "Mesinnya lambat, tetapi rasa ingin membuat bergerak lebih cepat. Keterbatasan mengajarkan creator memilih hal yang benar-benar penting.\n\nApa alat pertama yang kamu pakai?\n\n#CreatorStories #BuzzerKlip",
+    "instagram_media_id": "18206340766362723",
+    "instagram_url": "https://www.instagram.com/p/DbxzFxKINF2/",
+    "published_at": "2026-08-08T11:51:37+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 9,
