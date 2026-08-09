@@ -581,7 +581,7 @@
     "date": "2026-08-09",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 2,
     "day_in_week": 2,
@@ -649,7 +649,11 @@
       "native_search": "curious idea formation, electronic instrumental, 92 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Kita tidak selalu tahu karya mana yang menemukan pintunya. Tugas creator adalah terus membuat kemungkinan itu tersedia.\n\nKirim satu kemungkinan baru.\n\n#CreatorEnergy #BuzzerKlip"
+    "final_caption": "Kita tidak selalu tahu karya mana yang menemukan pintunya. Tugas creator adalah terus membuat kemungkinan itu tersedia.\n\nKirim satu kemungkinan baru.\n\n#CreatorEnergy #BuzzerKlip",
+    "instagram_media_id": "18090144590560411",
+    "instagram_url": "https://www.instagram.com/p/Db0YEZ6G3wl/",
+    "published_at": "2026-08-09T11:53:14+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 10,
