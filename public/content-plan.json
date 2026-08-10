@@ -660,7 +660,7 @@
     "date": "2026-08-10",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 2,
     "day_in_week": 3,
@@ -728,7 +728,11 @@
       "native_search": "aspirational creator journey, electronic instrumental, 108 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Kami melihat momen yang sering dilewati orang lain. Kami memotong bukan untuk mengecilkan cerita, tetapi untuk membuat intinya terdengar.\n\nTunjukkan caramu melihat.\n\n#ClipperCulture #BuzzerKlip"
+    "final_caption": "Kami melihat momen yang sering dilewati orang lain. Kami memotong bukan untuk mengecilkan cerita, tetapi untuk membuat intinya terdengar.\n\nTunjukkan caramu melihat.\n\n#ClipperCulture #BuzzerKlip",
+    "instagram_media_id": "18058664168610204",
+    "instagram_url": "https://www.instagram.com/p/Db2-aX2oO8l/",
+    "published_at": "2026-08-10T12:06:46+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 11,
