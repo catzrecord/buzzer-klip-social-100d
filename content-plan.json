@@ -739,7 +739,7 @@
     "date": "2026-08-11",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 2,
     "day_in_week": 4,
@@ -779,7 +779,11 @@
       "native_search": "minimal reflective tension, electronic instrumental, 84 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Tidak semua detik layak menjadi clip. Cari kalimat yang bisa berdiri sendiri, punya makna, dan membuat orang ingin mendengar konteksnya.\n\nMulai dari transcript, bukan timeline kosong.\n\n#ClipperIndonesia #PilihMomen"
+    "final_caption": "Tidak semua detik layak menjadi clip. Cari kalimat yang bisa berdiri sendiri, punya makna, dan membuat orang ingin mendengar konteksnya.\n\nMulai dari transcript, bukan timeline kosong.\n\n#ClipperIndonesia #PilihMomen",
+    "instagram_media_id": "18146174011547389",
+    "instagram_url": "https://www.instagram.com/p/Db5i-AEjbog/",
+    "published_at": "2026-08-11T12:04:41+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 12,
