@@ -790,7 +790,7 @@
     "date": "2026-08-12",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 2,
     "day_in_week": 5,
@@ -830,7 +830,11 @@
       "native_search": "release-day confidence, electronic instrumental, 116 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Feed yang tenang bukan vonis untuk kemampuanmu. Gunakan masa sepi untuk menguatkan karakter, ritme, dan kebiasaan berkarya.\n\nTetap hadir di posting berikutnya.\n\n#CreatorMindset #BuzzerKlip"
+    "final_caption": "Feed yang tenang bukan vonis untuk kemampuanmu. Gunakan masa sepi untuk menguatkan karakter, ritme, dan kebiasaan berkarya.\n\nTetap hadir di posting berikutnya.\n\n#CreatorMindset #BuzzerKlip",
+    "instagram_media_id": "18044593115803466",
+    "instagram_url": "https://www.instagram.com/p/Db8H0BQFDLu/",
+    "published_at": "2026-08-12T12:05:07+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 13,
