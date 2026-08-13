@@ -841,7 +841,7 @@
     "date": "2026-08-13",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 2,
     "day_in_week": 6,
@@ -881,7 +881,11 @@
       "native_search": "focused cinematic pulse, electronic instrumental, 94 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Tiga kata yang sering membuka perjalanan baru. Simpan versi, rapikan catatan, dan jangan percaya ukuran revisi sebelum membacanya.\n\nBerapa revisi terbanyakmu?\n\n#CreatorLife #BuzzerKlip"
+    "final_caption": "Tiga kata yang sering membuka perjalanan baru. Simpan versi, rapikan catatan, dan jangan percaya ukuran revisi sebelum membacanya.\n\nBerapa revisi terbanyakmu?\n\n#CreatorLife #BuzzerKlip",
+    "instagram_media_id": "18016278893864948",
+    "instagram_url": "https://www.instagram.com/p/Db-sp4jFo0g/",
+    "published_at": "2026-08-13T12:05:31+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 14,
