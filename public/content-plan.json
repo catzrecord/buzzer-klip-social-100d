@@ -892,7 +892,7 @@
     "date": "2026-08-14",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 2,
     "day_in_week": 7,
@@ -932,7 +932,11 @@
       "native_search": "fast creator momentum, electronic instrumental, 112 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Alat sederhana sering punya cerita paling menarik. Tidak ada meja yang terlalu kecil untuk memulai karya yang punya dampak.\n\nCeritakan setup yang kamu pakai.\n\n#KomunitasCreator #BuzzerKlip"
+    "final_caption": "Alat sederhana sering punya cerita paling menarik. Tidak ada meja yang terlalu kecil untuk memulai karya yang punya dampak.\n\nCeritakan setup yang kamu pakai.\n\n#KomunitasCreator #BuzzerKlip",
+    "instagram_media_id": "18185345149396534",
+    "instagram_url": "https://www.instagram.com/p/DcBRRnboLKo/",
+    "published_at": "2026-08-14T12:04:01+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 15,
