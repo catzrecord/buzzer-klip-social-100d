@@ -994,7 +994,7 @@
     "date": "2026-08-16",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 3,
     "day_in_week": 2,
@@ -1062,7 +1062,11 @@
       "native_search": "bold forward motion, electronic instrumental, 118 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Potensi share tidak selalu terlihat dari jumlah view sumber. Cerita niche dengan sudut pandang kuat bisa punya umur panjang di feed baru.\n\nCari permata tersembunyi di arsip.\n\n#ClipperIndonesia #PilihMomen"
+    "final_caption": "Potensi share tidak selalu terlihat dari jumlah view sumber. Cerita niche dengan sudut pandang kuat bisa punya umur panjang di feed baru.\n\nCari permata tersembunyi di arsip.\n\n#ClipperIndonesia #PilihMomen",
+    "instagram_media_id": "17905035645496113",
+    "instagram_url": "https://www.instagram.com/p/DcGYXmrFdqP/",
+    "published_at": "2026-08-16T11:42:10+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 17,
