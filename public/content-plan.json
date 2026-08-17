@@ -1073,7 +1073,7 @@
     "date": "2026-08-17",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 3,
     "day_in_week": 3,
@@ -1141,7 +1141,11 @@
       "native_search": "calm concentrated energy, electronic instrumental, 88 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Batas waktu memaksa keputusan terasa lebih jernih. Cari satu momen, pilih satu tujuan, dan selesaikan tanpa mengejar dekorasi.\n\nPasang timer lalu mulai.\n\n#CreatorChallenge #BuzzerKlip"
+    "final_caption": "Batas waktu memaksa keputusan terasa lebih jernih. Cari satu momen, pilih satu tujuan, dan selesaikan tanpa mengejar dekorasi.\n\nPasang timer lalu mulai.\n\n#CreatorChallenge #BuzzerKlip",
+    "instagram_media_id": "18037914629823249",
+    "instagram_url": "https://www.instagram.com/p/DcI9vOnlRy0/",
+    "published_at": "2026-08-17T11:47:11+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 18,
