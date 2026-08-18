@@ -1152,7 +1152,7 @@
     "date": "2026-08-18",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 3,
     "day_in_week": 4,
@@ -1220,7 +1220,11 @@
       "native_search": "dark editing rhythm, electronic instrumental, 104 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Kadang satu karya memberi tanda bahwa kita berada di jalan yang tepat. Bukan karena sempurna, tetapi karena akhirnya terasa seperti suara sendiri.\n\nIngat karya yang mengubah arahmu.\n\n#CreatorStories #BuzzerKlip"
+    "final_caption": "Kadang satu karya memberi tanda bahwa kita berada di jalan yang tepat. Bukan karena sempurna, tetapi karena akhirnya terasa seperti suara sendiri.\n\nIngat karya yang mengubah arahmu.\n\n#CreatorStories #BuzzerKlip",
+    "instagram_media_id": "18144219064549601",
+    "instagram_url": "https://www.instagram.com/p/DcLil5joJSb/",
+    "published_at": "2026-08-18T11:47:43+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 19,
