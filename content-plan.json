@@ -1231,7 +1231,7 @@
     "date": "2026-08-19",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 3,
     "day_in_week": 5,
@@ -1271,7 +1271,11 @@
       "native_search": "optimistic neon lift, electronic instrumental, 110 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Tidak semua hasil terlihat pada hari yang sama. Skill, portofolio, dan kepercayaan tumbuh dari pekerjaan yang terus dikumpulkan.\n\nTambahkan satu karya hari ini.\n\n#CreatorEnergy #BuzzerKlip"
+    "final_caption": "Tidak semua hasil terlihat pada hari yang sama. Skill, portofolio, dan kepercayaan tumbuh dari pekerjaan yang terus dikumpulkan.\n\nTambahkan satu karya hari ini.\n\n#CreatorEnergy #BuzzerKlip",
+    "instagram_media_id": "17892716478668734",
+    "instagram_url": "https://www.instagram.com/p/DcOHS9nlsB-/",
+    "published_at": "2026-08-19T11:46:57+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 20,
