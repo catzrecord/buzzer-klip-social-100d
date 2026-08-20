@@ -1282,7 +1282,7 @@
     "date": "2026-08-20",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 3,
     "day_in_week": 6,
@@ -1322,7 +1322,11 @@
       "native_search": "clean high-speed workflow, electronic instrumental, 120 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Teknik membuat edit rapi; rasa membuatnya hidup. Kepekaan pada napas, emosi, dan konteks adalah identitas seorang clipper.\n\nJaga rasa di setiap cut.\n\n#ClipperCulture #BuzzerKlip"
+    "final_caption": "Teknik membuat edit rapi; rasa membuatnya hidup. Kepekaan pada napas, emosi, dan konteks adalah identitas seorang clipper.\n\nJaga rasa di setiap cut.\n\n#ClipperCulture #BuzzerKlip",
+    "instagram_media_id": "18062625395773837",
+    "instagram_url": "https://www.instagram.com/p/DcQsbFFoJn-/",
+    "published_at": "2026-08-20T11:49:50+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 21,
