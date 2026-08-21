@@ -1333,7 +1333,7 @@
     "date": "2026-08-21",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 3,
     "day_in_week": 7,
@@ -1373,7 +1373,11 @@
       "native_search": "curious idea formation, electronic instrumental, 92 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Setiap layer harus membantu cerita bergerak. Rapikan track, beri nama file, dan hapus potongan mati sebelum masuk ke tahap dekorasi.\n\nBereskan timeline sebelum menambah efek.\n\n#EditVideo #CreatorWorkflow"
+    "final_caption": "Setiap layer harus membantu cerita bergerak. Rapikan track, beri nama file, dan hapus potongan mati sebelum masuk ke tahap dekorasi.\n\nBereskan timeline sebelum menambah efek.\n\n#EditVideo #CreatorWorkflow",
+    "instagram_media_id": "18089238236541180",
+    "instagram_url": "https://www.instagram.com/p/DcTREbTFgRF/",
+    "published_at": "2026-08-21T11:48:33+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 22,
