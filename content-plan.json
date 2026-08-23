@@ -1463,7 +1463,7 @@
     "date": "2026-08-23",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 4,
     "day_in_week": 2,
@@ -1531,7 +1531,11 @@
       "native_search": "minimal reflective tension, electronic instrumental, 84 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Otak creator punya jadwal sendiri. Tulis satu kalimat sebelum ide itu berubah menjadi mimpi yang sulit dijelaskan.\n\nBuka notes sebelum memejamkan mata.\n\n#CreatorLife #BuzzerKlip"
+    "final_caption": "Otak creator punya jadwal sendiri. Tulis satu kalimat sebelum ide itu berubah menjadi mimpi yang sulit dijelaskan.\n\nBuka notes sebelum memejamkan mata.\n\n#CreatorLife #BuzzerKlip",
+    "instagram_media_id": "18387349909163467",
+    "instagram_url": "https://www.instagram.com/p/DcYZ_16IO0s/",
+    "published_at": "2026-08-23T11:42:45+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 24,
