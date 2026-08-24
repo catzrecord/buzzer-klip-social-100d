@@ -1542,7 +1542,7 @@
     "date": "2026-08-24",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 4,
     "day_in_week": 3,
@@ -1582,7 +1582,11 @@
       "native_search": "release-day confidence, electronic instrumental, 116 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Setiap editor punya kebiasaan yang dibela mati-matian. Perbedaan gaya membuat percakapan kreatif tetap hidup dan menyenangkan.\n\nPilih timmu di komentar.\n\n#KomunitasCreator #BuzzerKlip"
+    "final_caption": "Setiap editor punya kebiasaan yang dibela mati-matian. Perbedaan gaya membuat percakapan kreatif tetap hidup dan menyenangkan.\n\nPilih timmu di komentar.\n\n#KomunitasCreator #BuzzerKlip",
+    "instagram_media_id": "17964361851171938",
+    "instagram_url": "https://www.instagram.com/p/Dca_oiGDMBu/",
+    "published_at": "2026-08-24T11:50:07+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 25,
