@@ -1593,7 +1593,7 @@
     "date": "2026-08-25",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 4,
     "day_in_week": 4,
@@ -1633,7 +1633,11 @@
       "native_search": "focused cinematic pulse, electronic instrumental, 94 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Ide membutuhkan ruang untuk diuji dan ditemukan. Buzzer Klip mendorong creator mengubah energi menjadi karya yang terlihat.\n\nMasuk dan mulai bergerak.\n\n#BuzzerKlip #CreatorIndonesia"
+    "final_caption": "Ide membutuhkan ruang untuk diuji dan ditemukan. Buzzer Klip mendorong creator mengubah energi menjadi karya yang terlihat.\n\nMasuk dan mulai bergerak.\n\n#BuzzerKlip #CreatorIndonesia",
+    "instagram_media_id": "17871931527576699",
+    "instagram_url": "https://www.instagram.com/p/Dcdkhh2G_fY/",
+    "published_at": "2026-08-25T11:50:57+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 26,
