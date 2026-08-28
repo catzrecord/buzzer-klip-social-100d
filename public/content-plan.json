@@ -1746,7 +1746,7 @@
     "date": "2026-08-28",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 4,
     "day_in_week": 7,
@@ -1814,7 +1814,11 @@
       "native_search": "bold forward motion, electronic instrumental, 118 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Timeline menyala ketika kota sudah tenang. Di antara kopi, revisi, dan ragu, keputusan untuk mengirim akhirnya menang.\n\nSiapa yang sering edit tengah malam?\n\n#CreatorStories #BuzzerKlip"
+    "final_caption": "Timeline menyala ketika kota sudah tenang. Di antara kopi, revisi, dan ragu, keputusan untuk mengirim akhirnya menang.\n\nSiapa yang sering edit tengah malam?\n\n#CreatorStories #BuzzerKlip",
+    "instagram_media_id": "17964753074962982",
+    "instagram_url": "https://www.instagram.com/p/DcmVCSaoKjs/",
+    "published_at": "2026-08-28T21:28:45+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 29,
