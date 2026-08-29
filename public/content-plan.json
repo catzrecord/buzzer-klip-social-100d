@@ -1825,7 +1825,7 @@
     "date": "2026-08-29",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 5,
     "day_in_week": 1,
@@ -1865,7 +1865,11 @@
       "native_search": "calm concentrated energy, electronic instrumental, 88 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Langkah kecil lebih kuat daripada rencana besar yang diam. Gunakan alat yang ada dan biarkan perjalanan memperbaiki sisanya.\n\nMulai dari footage terdekat.\n\n#CreatorEnergy #BuzzerKlip"
+    "final_caption": "Langkah kecil lebih kuat daripada rencana besar yang diam. Gunakan alat yang ada dan biarkan perjalanan memperbaiki sisanya.\n\nMulai dari footage terdekat.\n\n#CreatorEnergy #BuzzerKlip",
+    "instagram_media_id": "18214227307346394",
+    "instagram_url": "https://www.instagram.com/p/DcoSB55oE2F/",
+    "published_at": "2026-08-29T15:41:01+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 30,
