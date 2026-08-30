@@ -1876,7 +1876,7 @@
     "date": "2026-08-30",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 5,
     "day_in_week": 2,
@@ -1944,7 +1944,11 @@
       "native_search": "dark editing rhythm, electronic instrumental, 104 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Kecepatan adalah hasil dari keputusan yang terlatih. Kami bergerak cepat karena tahu apa yang perlu dipertahankan.\n\nPotong tegas, tetap peka.\n\n#ClipperCulture #BuzzerKlip"
+    "final_caption": "Kecepatan adalah hasil dari keputusan yang terlatih. Kami bergerak cepat karena tahu apa yang perlu dipertahankan.\n\nPotong tegas, tetap peka.\n\n#ClipperCulture #BuzzerKlip",
+    "instagram_media_id": "17937888933360520",
+    "instagram_url": "https://www.instagram.com/p/Dcq05pyIAfs/",
+    "published_at": "2026-08-30T15:24:10+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 31,
