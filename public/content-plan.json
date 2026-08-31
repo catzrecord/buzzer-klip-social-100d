@@ -1955,7 +1955,7 @@
     "date": "2026-08-31",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 5,
     "day_in_week": 3,
@@ -1995,7 +1995,11 @@
       "native_search": "optimistic neon lift, electronic instrumental, 110 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Caption yang baik tidak mengulang semua isi video. Tambahkan sudut pandang, pertanyaan, atau konteks yang membuat orang ingin ikut bicara.\n\nTulis caption seolah sedang chat dengan komunitasmu.\n\n#CaptionKonten #CopywritingCreator"
+    "final_caption": "Caption yang baik tidak mengulang semua isi video. Tambahkan sudut pandang, pertanyaan, atau konteks yang membuat orang ingin ikut bicara.\n\nTulis caption seolah sedang chat dengan komunitasmu.\n\n#CaptionKonten #CopywritingCreator",
+    "instagram_media_id": "17944929078278560",
+    "instagram_url": "https://www.instagram.com/p/Dctr5-3mpTb/",
+    "published_at": "2026-08-31T18:03:18+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 32,
