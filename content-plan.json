@@ -2006,7 +2006,7 @@
     "date": "2026-09-01",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 5,
     "day_in_week": 4,
@@ -2046,7 +2046,11 @@
       "native_search": "clean high-speed workflow, electronic instrumental, 120 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Satu karya hebat mudah lewat dari ingatan. Rangkaian karya yang jujur membuat orang mengenali suara dan arahmu.\n\nBangun ritme yang sanggup kamu jaga.\n\n#CreatorMindset #BuzzerKlip"
+    "final_caption": "Satu karya hebat mudah lewat dari ingatan. Rangkaian karya yang jujur membuat orang mengenali suara dan arahmu.\n\nBangun ritme yang sanggup kamu jaga.\n\n#CreatorMindset #BuzzerKlip",
+    "instagram_media_id": "17975302355915453",
+    "instagram_url": "https://www.instagram.com/p/Dcv_GgFlHwx/",
+    "published_at": "2026-09-01T15:29:30+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 33,
