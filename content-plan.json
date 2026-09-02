@@ -2057,7 +2057,7 @@
     "date": "2026-09-02",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 5,
     "day_in_week": 5,
@@ -2125,7 +2125,11 @@
       "native_search": "curious idea formation, electronic instrumental, 92 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Nama file sering menceritakan seluruh perjuangan. Versi boleh banyak, tetapi keputusan terakhir tetap membutuhkan keberanian.\n\nTulis nama file final paling absurd.\n\n#CreatorLife #BuzzerKlip"
+    "final_caption": "Nama file sering menceritakan seluruh perjuangan. Versi boleh banyak, tetapi keputusan terakhir tetap membutuhkan keberanian.\n\nTulis nama file final paling absurd.\n\n#CreatorLife #BuzzerKlip",
+    "instagram_media_id": "17947824633268885",
+    "instagram_url": "https://www.instagram.com/p/DcyhwnRFrXh/",
+    "published_at": "2026-09-02T15:10:49+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 34,
