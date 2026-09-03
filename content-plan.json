@@ -2136,7 +2136,7 @@
     "date": "2026-09-03",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 5,
     "day_in_week": 6,
@@ -2176,7 +2176,11 @@
       "native_search": "aspirational creator journey, electronic instrumental, 108 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Kolaborasi dimulai dari sapaan yang sederhana. Satu koneksi baru bisa membawa perspektif, energi, dan kesempatan yang berbeda.\n\nSapa satu creator hari ini.\n\n#KomunitasCreator #BuzzerKlip"
+    "final_caption": "Kolaborasi dimulai dari sapaan yang sederhana. Satu koneksi baru bisa membawa perspektif, energi, dan kesempatan yang berbeda.\n\nSapa satu creator hari ini.\n\n#KomunitasCreator #BuzzerKlip",
+    "instagram_media_id": "18129684328777399",
+    "instagram_url": "https://www.instagram.com/p/Dc1FzenFtTV/",
+    "published_at": "2026-09-03T15:04:17+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 35,
