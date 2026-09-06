@@ -2345,7 +2345,7 @@
     "date": "2026-09-06",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 6,
     "day_in_week": 2,
@@ -2385,7 +2385,11 @@
       "native_search": "focused cinematic pulse, electronic instrumental, 94 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Sumber yang sama bisa punya tiga energi berbeda. Uji versi cepat, emosional, dan informatif untuk melihat cara cerita berubah.\n\nPilih versi favoritmu.\n\n#CreatorChallenge #BuzzerKlip"
+    "final_caption": "Sumber yang sama bisa punya tiga energi berbeda. Uji versi cepat, emosional, dan informatif untuk melihat cara cerita berubah.\n\nPilih versi favoritmu.\n\n#CreatorChallenge #BuzzerKlip",
+    "instagram_media_id": "17919449298439420",
+    "instagram_url": "https://www.instagram.com/p/Dc8usuvG1Dn/",
+    "published_at": "2026-09-06T14:16:20+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 38,
