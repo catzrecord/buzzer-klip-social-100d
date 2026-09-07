@@ -2396,7 +2396,7 @@
     "date": "2026-09-07",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 6,
     "day_in_week": 3,
@@ -2436,7 +2436,11 @@
       "native_search": "fast creator momentum, electronic instrumental, 112 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Versi demi versi terasa seperti berjalan memutar. Lalu satu perubahan kecil membuat semuanya tiba-tiba punya bentuk.\n\nCeritakan revisi paling melelahkan.\n\n#CreatorStories #BuzzerKlip"
+    "final_caption": "Versi demi versi terasa seperti berjalan memutar. Lalu satu perubahan kecil membuat semuanya tiba-tiba punya bentuk.\n\nCeritakan revisi paling melelahkan.\n\n#CreatorStories #BuzzerKlip",
+    "instagram_media_id": "17881192896621046",
+    "instagram_url": "https://www.instagram.com/p/Dc_jNFREULU/",
+    "published_at": "2026-09-07T16:33:35+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 39,
