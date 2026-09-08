@@ -2447,7 +2447,7 @@
     "date": "2026-09-08",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 6,
     "day_in_week": 4,
@@ -2515,7 +2515,11 @@
       "native_search": "precise digital confidence, electronic instrumental, 100 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Orang sulit mengenali suara yang jarang muncul. Kehadiran yang konsisten memberi kesempatan pada audience untuk menemukanmu.\n\nJaga satu ritme sederhana.\n\n#CreatorEnergy #BuzzerKlip"
+    "final_caption": "Orang sulit mengenali suara yang jarang muncul. Kehadiran yang konsisten memberi kesempatan pada audience untuk menemukanmu.\n\nJaga satu ritme sederhana.\n\n#CreatorEnergy #BuzzerKlip",
+    "instagram_media_id": "18089756618664359",
+    "instagram_url": "https://www.instagram.com/p/DdB-viQEXe3/",
+    "published_at": "2026-09-08T15:12:42+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 40,
