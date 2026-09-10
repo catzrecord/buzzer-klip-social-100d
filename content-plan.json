@@ -2605,7 +2605,7 @@
     "date": "2026-09-10",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 6,
     "day_in_week": 6,
@@ -2645,7 +2645,11 @@
       "native_search": "calm concentrated energy, electronic instrumental, 88 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Ruang layar ponsel punya ritmenya sendiri. Susun wajah, teks, dan gerak di area yang mudah dibaca dengan satu tangan.\n\nUji crop vertikal sebelum final export.\n\n#ContentFormat #SocialMediaIndonesia"
+    "final_caption": "Ruang layar ponsel punya ritmenya sendiri. Susun wajah, teks, dan gerak di area yang mudah dibaca dengan satu tangan.\n\nUji crop vertikal sebelum final export.\n\n#ContentFormat #SocialMediaIndonesia",
+    "instagram_media_id": "17919896553220658",
+    "instagram_url": "https://www.instagram.com/p/DdHHTajkd4L/",
+    "published_at": "2026-09-10T15:03:43+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 42,
