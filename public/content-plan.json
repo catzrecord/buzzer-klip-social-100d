@@ -2707,7 +2707,7 @@
     "date": "2026-09-12",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 7,
     "day_in_week": 1,
@@ -2747,7 +2747,11 @@
       "native_search": "optimistic neon lift, electronic instrumental, 110 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Satu cut kecil bisa membuka seratus kemungkinan. Waktu terasa hilang ketika creator sedang mengejar rasa yang tepat.\n\nSiapa yang sering lupa waktu saat edit?\n\n#CreatorLife #BuzzerKlip"
+    "final_caption": "Satu cut kecil bisa membuka seratus kemungkinan. Waktu terasa hilang ketika creator sedang mengejar rasa yang tepat.\n\nSiapa yang sering lupa waktu saat edit?\n\n#CreatorLife #BuzzerKlip",
+    "instagram_media_id": "18116412326053712",
+    "instagram_url": "https://www.instagram.com/p/DdMLRdylT07/",
+    "published_at": "2026-09-12T14:14:36+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 44,
