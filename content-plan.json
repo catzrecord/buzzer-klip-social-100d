@@ -2837,7 +2837,7 @@
     "date": "2026-09-14",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 7,
     "day_in_week": 3,
@@ -2877,7 +2877,11 @@
       "native_search": "curious idea formation, electronic instrumental, 92 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Setiap brief bisa diterjemahkan dengan karakter berbeda. Sudut pandang creator membuat sebuah pesan terasa hidup dan relevan.\n\nBawa gaya terbaikmu.\n\n#BuzzerKlip #CreatorIndonesia"
+    "final_caption": "Setiap brief bisa diterjemahkan dengan karakter berbeda. Sudut pandang creator membuat sebuah pesan terasa hidup dan relevan.\n\nBawa gaya terbaikmu.\n\n#BuzzerKlip #CreatorIndonesia",
+    "instagram_media_id": "17888690136454910",
+    "instagram_url": "https://www.instagram.com/p/DdRnthdGktO/",
+    "published_at": "2026-09-14T16:59:18+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 46,
