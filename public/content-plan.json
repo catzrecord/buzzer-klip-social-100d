@@ -2967,7 +2967,7 @@
     "date": "2026-09-16",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 7,
     "day_in_week": 5,
@@ -3007,7 +3007,11 @@
       "native_search": "minimal reflective tension, electronic instrumental, 84 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Cerita tetap harus kuat ketika efek dikurangi. Gunakan cut, timing, dan suara sebagai fondasi utama.\n\nBuat satu edit yang bersih.\n\n#CreatorChallenge #BuzzerKlip"
+    "final_caption": "Cerita tetap harus kuat ketika efek dikurangi. Gunakan cut, timing, dan suara sebagai fondasi utama.\n\nBuat satu edit yang bersih.\n\n#CreatorChallenge #BuzzerKlip",
+    "instagram_media_id": "18103946530983018",
+    "instagram_url": "https://www.instagram.com/p/DdWmz09G3_K/",
+    "published_at": "2026-09-16T15:27:39+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 48,
