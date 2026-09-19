@@ -3148,7 +3148,7 @@
     "date": "2026-09-19",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 8,
     "day_in_week": 1,
@@ -3188,7 +3188,11 @@
       "native_search": "fast creator momentum, electronic instrumental, 112 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Setiap post menambah warna pada identitas creator. Kami menyusun feed seperti cerita panjang yang tumbuh satu frame sekali.\n\nTambahkan frame berikutnya.\n\n#ClipperCulture #BuzzerKlip"
+    "final_caption": "Setiap post menambah warna pada identitas creator. Kami menyusun feed seperti cerita panjang yang tumbuh satu frame sekali.\n\nTambahkan frame berikutnya.\n\n#ClipperCulture #BuzzerKlip",
+    "instagram_media_id": "18064740548781336",
+    "instagram_url": "https://www.instagram.com/p/DdeO9iCkZAd/",
+    "published_at": "2026-09-19T14:33:12+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 51,
