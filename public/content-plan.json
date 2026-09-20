@@ -3199,7 +3199,7 @@
     "date": "2026-09-20",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 8,
     "day_in_week": 2,
@@ -3239,7 +3239,11 @@
       "native_search": "precise digital confidence, electronic instrumental, 100 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Produksi harian tidak harus berarti mulai dari nol setiap hari. Kelompokkan riset, clipping, editing, dan scheduling agar fokus tidak pecah.\n\nCoba satu sesi batch minggu ini.\n\n#CreatorTips #KerjaKreatif"
+    "final_caption": "Produksi harian tidak harus berarti mulai dari nol setiap hari. Kelompokkan riset, clipping, editing, dan scheduling agar fokus tidak pecah.\n\nCoba satu sesi batch minggu ini.\n\n#CreatorTips #KerjaKreatif",
+    "instagram_media_id": "18106969657915363",
+    "instagram_url": "https://www.instagram.com/p/Ddg1KdFm1eH/",
+    "published_at": "2026-09-20T14:45:28+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 52,
