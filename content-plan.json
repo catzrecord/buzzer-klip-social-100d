@@ -3329,7 +3329,7 @@
     "date": "2026-09-22",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 8,
     "day_in_week": 4,
@@ -3369,7 +3369,11 @@
       "native_search": "calm concentrated energy, electronic instrumental, 88 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Visual selesai, satu kalimat masih menatap kosong. Kadang bagian tersulit bukan membuat, tetapi menjelaskan tanpa merusak rasa.\n\nTim caption cepat atau lama?\n\n#CreatorLife #BuzzerKlip"
+    "final_caption": "Visual selesai, satu kalimat masih menatap kosong. Kadang bagian tersulit bukan membuat, tetapi menjelaskan tanpa merusak rasa.\n\nTim caption cepat atau lama?\n\n#CreatorLife #BuzzerKlip",
+    "instagram_media_id": "17998729682816460",
+    "instagram_url": "https://www.instagram.com/p/DdmERHnlcT1/",
+    "published_at": "2026-09-22T15:33:39+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 54,
