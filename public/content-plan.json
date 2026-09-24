@@ -3431,7 +3431,7 @@
     "date": "2026-09-24",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 8,
     "day_in_week": 6,
@@ -3499,7 +3499,11 @@
       "native_search": "optimistic neon lift, electronic instrumental, 110 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Keberanian tampil adalah bagian dari proses kreatif. Buzzer Klip memberi ruang pada creator yang terus mencoba dan berkembang.\n\nKirim karya yang kamu banggakan.\n\n#BuzzerKlip #CreatorIndonesia"
+    "final_caption": "Keberanian tampil adalah bagian dari proses kreatif. Buzzer Klip memberi ruang pada creator yang terus mencoba dan berkembang.\n\nKirim karya yang kamu banggakan.\n\n#BuzzerKlip #CreatorIndonesia",
+    "instagram_media_id": "18122433241903635",
+    "instagram_url": "https://www.instagram.com/p/DdrP_nElnl7/",
+    "published_at": "2026-09-24T15:52:17+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 56,
