@@ -3510,7 +3510,7 @@
     "date": "2026-09-25",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 8,
     "day_in_week": 7,
@@ -3578,7 +3578,11 @@
       "native_search": "clean high-speed workflow, electronic instrumental, 120 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Kreativitas juga butuh pagar. Buat waktu cut-off agar editing tidak terus melebar tanpa dampak nyata.\n\nPasang deadline untuk export berikutnya.\n\n#CreatorTips #KerjaKreatif"
+    "final_caption": "Kreativitas juga butuh pagar. Buat waktu cut-off agar editing tidak terus melebar tanpa dampak nyata.\n\nPasang deadline untuk export berikutnya.\n\n#CreatorTips #KerjaKreatif",
+    "instagram_media_id": "18151068877526183",
+    "instagram_url": "https://www.instagram.com/p/Ddt0zuom5NX/",
+    "published_at": "2026-09-25T15:52:28+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 57,
