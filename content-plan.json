@@ -3589,7 +3589,7 @@
     "date": "2026-09-26",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 9,
     "day_in_week": 1,
@@ -3629,7 +3629,11 @@
       "native_search": "curious idea formation, electronic instrumental, 92 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Bagian yang terasa dekat lebih mudah mengundang respons. Pilih pengalaman kecil yang banyak orang pernah rasakan.\n\nTulis momen pilihanmu.\n\n#CreatorChallenge #BuzzerKlip"
+    "final_caption": "Bagian yang terasa dekat lebih mudah mengundang respons. Pilih pengalaman kecil yang banyak orang pernah rasakan.\n\nTulis momen pilihanmu.\n\n#CreatorChallenge #BuzzerKlip",
+    "instagram_media_id": "18142891420585969",
+    "instagram_url": "https://www.instagram.com/p/DdwT1UrEZpw/",
+    "published_at": "2026-09-26T15:02:04+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 58,
