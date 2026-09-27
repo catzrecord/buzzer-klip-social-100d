@@ -3640,7 +3640,7 @@
     "date": "2026-09-27",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 9,
     "day_in_week": 2,
@@ -3680,7 +3680,11 @@
       "native_search": "aspirational creator journey, electronic instrumental, 108 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Di balik satu view ada seseorang yang memilih berhenti. Mengingat hal itu membuat creator kembali fokus pada pengalaman manusia.\n\nBuat karya untuk satu orang nyata.\n\n#CreatorStories #BuzzerKlip"
+    "final_caption": "Di balik satu view ada seseorang yang memilih berhenti. Mengingat hal itu membuat creator kembali fokus pada pengalaman manusia.\n\nBuat karya untuk satu orang nyata.\n\n#CreatorStories #BuzzerKlip",
+    "instagram_media_id": "18134532640727256",
+    "instagram_url": "https://www.instagram.com/p/Ddy9P-hminG/",
+    "published_at": "2026-09-27T15:42:26+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 59,
