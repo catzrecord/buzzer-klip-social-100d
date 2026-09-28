@@ -3691,7 +3691,7 @@
     "date": "2026-09-28",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 9,
     "day_in_week": 3,
@@ -3731,7 +3731,11 @@
       "native_search": "minimal reflective tension, electronic instrumental, 84 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Energi jarang turun dari langit dalam bentuk sempurna. Satu tugas selesai memudahkan tugas berikutnya ikut bergerak.\n\nMulai dari bagian paling ringan.\n\n#CreatorEnergy #BuzzerKlip"
+    "final_caption": "Energi jarang turun dari langit dalam bentuk sempurna. Satu tugas selesai memudahkan tugas berikutnya ikut bergerak.\n\nMulai dari bagian paling ringan.\n\n#CreatorEnergy #BuzzerKlip",
+    "instagram_media_id": "18145800493602341",
+    "instagram_url": "https://www.instagram.com/p/Dd12bUcmDAz/",
+    "published_at": "2026-09-28T18:40:32+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 60,
