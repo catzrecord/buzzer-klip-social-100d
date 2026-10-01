@@ -3900,7 +3900,7 @@
     "date": "2026-10-01",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 9,
     "day_in_week": 6,
@@ -3968,7 +3968,11 @@
       "native_search": "fast creator momentum, electronic instrumental, 112 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Hasil besar jarang terlihat pada percobaan pertama. Setiap upload melatih mata, rasa, keputusan, dan kemampuan membaca penonton.\n\nCatat satu kemajuan hari ini.\n\n#CreatorMindset #BuzzerKlip"
+    "final_caption": "Hasil besar jarang terlihat pada percobaan pertama. Setiap upload melatih mata, rasa, keputusan, dan kemampuan membaca penonton.\n\nCatat satu kemajuan hari ini.\n\n#CreatorMindset #BuzzerKlip",
+    "instagram_media_id": "18112676936031821",
+    "instagram_url": "https://www.instagram.com/p/Dd9cWo-FY0o/",
+    "published_at": "2026-10-01T17:26:37+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 63,
