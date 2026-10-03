@@ -4030,7 +4030,7 @@
     "date": "2026-10-03",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 10,
     "day_in_week": 1,
@@ -4070,7 +4070,11 @@
       "native_search": "bold forward motion, electronic instrumental, 118 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Semangat lebih mudah dijaga ketika ada teman seperjalanan. Ritual berbagi progress membuat target terasa nyata dan menyenangkan.\n\nBuat check-in mingguan bersama.\n\n#KomunitasCreator #BuzzerKlip"
+    "final_caption": "Semangat lebih mudah dijaga ketika ada teman seperjalanan. Ritual berbagi progress membuat target terasa nyata dan menyenangkan.\n\nBuat check-in mingguan bersama.\n\n#KomunitasCreator #BuzzerKlip",
+    "instagram_media_id": "18072222041739885",
+    "instagram_url": "https://www.instagram.com/p/DeCWU8DFnfk/",
+    "published_at": "2026-10-03T15:10:11+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 65,
