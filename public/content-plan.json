@@ -4081,7 +4081,7 @@
     "date": "2026-10-04",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 10,
     "day_in_week": 2,
@@ -4149,7 +4149,11 @@
       "native_search": "calm concentrated energy, electronic instrumental, 88 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Di balik setiap potongan ada keputusan dan kepekaan. Saat karya mendapat ruang, kemampuan creator ikut terlihat.\n\nAmbil panggungmu.\n\n#BuzzerKlip #CreatorIndonesia"
+    "final_caption": "Di balik setiap potongan ada keputusan dan kepekaan. Saat karya mendapat ruang, kemampuan creator ikut terlihat.\n\nAmbil panggungmu.\n\n#BuzzerKlip #CreatorIndonesia",
+    "instagram_media_id": "18413155123083527",
+    "instagram_url": "https://www.instagram.com/p/DeFAHstnKyW/",
+    "published_at": "2026-10-04T15:53:50+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 66,
