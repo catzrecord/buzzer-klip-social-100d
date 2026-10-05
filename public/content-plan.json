@@ -4160,7 +4160,7 @@
     "date": "2026-10-05",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 10,
     "day_in_week": 3,
@@ -4200,7 +4200,11 @@
       "native_search": "dark editing rhythm, electronic instrumental, 104 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Partner kerja mengingat proses, bukan hanya hasil akhir. Nama file, deadline, revisi, dan catatan yang jelas membuat kolaborasi terasa aman.\n\nKirim pekerjaan dengan konteks lengkap.\n\n#BrandCampaign #CreatorEconomy"
+    "final_caption": "Partner kerja mengingat proses, bukan hanya hasil akhir. Nama file, deadline, revisi, dan catatan yang jelas membuat kolaborasi terasa aman.\n\nKirim pekerjaan dengan konteks lengkap.\n\n#BrandCampaign #CreatorEconomy",
+    "instagram_media_id": "18147422368865989",
+    "instagram_url": "https://www.instagram.com/p/DeIABn5HWSl/",
+    "published_at": "2026-10-05T19:50:45+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 67,
