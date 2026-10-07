@@ -4290,7 +4290,7 @@
     "date": "2026-10-07",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 10,
     "day_in_week": 5,
@@ -4330,7 +4330,11 @@
       "native_search": "clean high-speed workflow, electronic instrumental, 120 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Tidak ada efek besar, hanya satu momen yang terasa jujur. Sering kali justru potongan sederhana yang paling lama tinggal di kepala.\n\nSimpan ide kecilmu.\n\n#CreatorStories #BuzzerKlip"
+    "final_caption": "Tidak ada efek besar, hanya satu momen yang terasa jujur. Sering kali justru potongan sederhana yang paling lama tinggal di kepala.\n\nSimpan ide kecilmu.\n\n#CreatorStories #BuzzerKlip",
+    "instagram_media_id": "18015501008953392",
+    "instagram_url": "https://www.instagram.com/p/DeM8A-9FIMX/",
+    "published_at": "2026-10-07T17:51:54+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 69,
