@@ -4420,7 +4420,7 @@
     "date": "2026-10-09",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 10,
     "day_in_week": 7,
@@ -4460,7 +4460,11 @@
       "native_search": "aspirational creator journey, electronic instrumental, 108 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Hal kecil menunjukkan seberapa serius kita menghargai penonton. Crop, audio, credit, dan caption adalah bagian dari karakter kerja.\n\nRapikan satu detail terakhir.\n\n#ClipperCulture #BuzzerKlip"
+    "final_caption": "Hal kecil menunjukkan seberapa serius kita menghargai penonton. Crop, audio, credit, dan caption adalah bagian dari karakter kerja.\n\nRapikan satu detail terakhir.\n\n#ClipperCulture #BuzzerKlip",
+    "instagram_media_id": "17968452959963562",
+    "instagram_url": "https://www.instagram.com/p/DeSDATmG6WX/",
+    "published_at": "2026-10-09T17:29:12+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 71,
