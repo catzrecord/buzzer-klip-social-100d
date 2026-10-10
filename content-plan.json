@@ -4471,7 +4471,7 @@
     "date": "2026-10-10",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 11,
     "day_in_week": 1,
@@ -4539,7 +4539,11 @@
       "native_search": "minimal reflective tension, electronic instrumental, 84 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Reach memberi sinyal, tapi kualitas perhatian memberi cerita lebih lengkap. Lihat retention, share, save, komentar, dan kesesuaian audience bersama-sama.\n\nPilih tiga metrik yang benar-benar kamu pahami.\n\n#CuanCreator #PayoutCreator"
+    "final_caption": "Reach memberi sinyal, tapi kualitas perhatian memberi cerita lebih lengkap. Lihat retention, share, save, komentar, dan kesesuaian audience bersama-sama.\n\nPilih tiga metrik yang benar-benar kamu pahami.\n\n#CuanCreator #PayoutCreator",
+    "instagram_media_id": "17893252713439806",
+    "instagram_url": "https://www.instagram.com/p/DeUftOLGwjJ/",
+    "published_at": "2026-10-10T16:18:28+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 72,
