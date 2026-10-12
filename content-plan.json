@@ -4629,7 +4629,7 @@
     "date": "2026-10-12",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 11,
     "day_in_week": 3,
@@ -4669,7 +4669,11 @@
       "native_search": "focused cinematic pulse, electronic instrumental, 94 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Angka kecil tetap lahir dari karya yang berani tampil. Hari sepi sering menjadi latihan untuk hari ketika perhatian datang lebih besar.\n\nKasih semangat untuk creator yang konsisten.\n\n#CreatorLife #BuzzerKlip"
+    "final_caption": "Angka kecil tetap lahir dari karya yang berani tampil. Hari sepi sering menjadi latihan untuk hari ketika perhatian datang lebih besar.\n\nKasih semangat untuk creator yang konsisten.\n\n#CreatorLife #BuzzerKlip",
+    "instagram_media_id": "17989074135025880",
+    "instagram_url": "https://www.instagram.com/p/DeaFGKpmZjM/",
+    "published_at": "2026-10-12T20:21:24+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 74,
