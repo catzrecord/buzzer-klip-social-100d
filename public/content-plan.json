@@ -4680,7 +4680,7 @@
     "date": "2026-10-13",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 11,
     "day_in_week": 4,
@@ -4748,7 +4748,11 @@
       "native_search": "fast creator momentum, electronic instrumental, 112 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Dua sudut pandang bisa melahirkan kemungkinan ketiga. Gabungkan kekuatan tanpa menghapus karakter masing-masing creator.\n\nAjak satu orang membuat sesuatu.\n\n#KomunitasCreator #BuzzerKlip"
+    "final_caption": "Dua sudut pandang bisa melahirkan kemungkinan ketiga. Gabungkan kekuatan tanpa menghapus karakter masing-masing creator.\n\nAjak satu orang membuat sesuatu.\n\n#KomunitasCreator #BuzzerKlip",
+    "instagram_media_id": "18117447610791049",
+    "instagram_url": "https://www.instagram.com/p/DeccjYEm6tc/",
+    "published_at": "2026-10-13T18:24:52+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 75,
