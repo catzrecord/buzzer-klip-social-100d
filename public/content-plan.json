@@ -4810,7 +4810,7 @@
     "date": "2026-10-15",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 11,
     "day_in_week": 6,
@@ -4850,7 +4850,11 @@
       "native_search": "bold forward motion, electronic instrumental, 118 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Brand ingin melihat pola, bukan satu keberuntungan. Kumpulkan beberapa clip dengan tema dan hasil yang menunjukkan kemampuanmu berulang.\n\nSusun portofolio berdasarkan kekuatan.\n\n#CuanCreator #PayoutCreator"
+    "final_caption": "Brand ingin melihat pola, bukan satu keberuntungan. Kumpulkan beberapa clip dengan tema dan hasil yang menunjukkan kemampuanmu berulang.\n\nSusun portofolio berdasarkan kekuatan.\n\n#CuanCreator #PayoutCreator",
+    "instagram_media_id": "18103519931313407",
+    "instagram_url": "https://www.instagram.com/p/DehTODnkaIV/",
+    "published_at": "2026-10-15T15:39:30+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 77,
