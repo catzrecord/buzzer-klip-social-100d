@@ -4861,7 +4861,7 @@
     "date": "2026-10-16",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 11,
     "day_in_week": 7,
@@ -4901,7 +4901,11 @@
       "native_search": "calm concentrated energy, electronic instrumental, 88 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Batas visual bisa melahirkan identitas yang kuat. Pilih satu aksen lalu biarkan elemen lain mendukungnya.\n\nTunjukkan warna pilihanmu.\n\n#CreatorChallenge #BuzzerKlip"
+    "final_caption": "Batas visual bisa melahirkan identitas yang kuat. Pilih satu aksen lalu biarkan elemen lain mendukungnya.\n\nTunjukkan warna pilihanmu.\n\n#CreatorChallenge #BuzzerKlip",
+    "instagram_media_id": "17938479408383726",
+    "instagram_url": "https://www.instagram.com/p/Dej2Wn7oD-1/",
+    "published_at": "2026-10-16T15:24:59+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 78,
