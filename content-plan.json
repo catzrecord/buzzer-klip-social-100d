@@ -4963,7 +4963,7 @@
     "date": "2026-10-18",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 12,
     "day_in_week": 2,
@@ -5003,7 +5003,11 @@
       "native_search": "optimistic neon lift, electronic instrumental, 110 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Rencana yang indah tetap membutuhkan bukti. Satu karya terbit memberi data, pengalaman, dan keberanian nyata.\n\nPilih upload yang bisa selesai hari ini.\n\n#CreatorEnergy #BuzzerKlip"
+    "final_caption": "Rencana yang indah tetap membutuhkan bukti. Satu karya terbit memberi data, pengalaman, dan keberanian nyata.\n\nPilih upload yang bisa selesai hari ini.\n\n#CreatorEnergy #BuzzerKlip",
+    "instagram_media_id": "17945632785353700",
+    "instagram_url": "https://www.instagram.com/p/Deo7ANQIJOl/",
+    "published_at": "2026-10-18T14:41:48+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 80,
