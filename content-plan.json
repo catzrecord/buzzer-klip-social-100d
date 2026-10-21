@@ -5144,7 +5144,7 @@
     "date": "2026-10-21",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 12,
     "day_in_week": 5,
@@ -5212,7 +5212,11 @@
       "native_search": "aspirational creator journey, electronic instrumental, 108 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Target besar terasa berat ketika dipikirkan sekaligus. Pecah perjalanan menjadi pilih momen, edit, cek, lalu kirim.\n\nSelesaikan langkah terdekat.\n\n#CreatorMindset #BuzzerKlip"
+    "final_caption": "Target besar terasa berat ketika dipikirkan sekaligus. Pecah perjalanan menjadi pilih momen, edit, cek, lalu kirim.\n\nSelesaikan langkah terdekat.\n\n#CreatorMindset #BuzzerKlip",
+    "instagram_media_id": "18060122012576949",
+    "instagram_url": "https://www.instagram.com/p/DewybSBIFJd/",
+    "published_at": "2026-10-21T16:00:47+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 83,
