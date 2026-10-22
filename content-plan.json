@@ -5223,7 +5223,7 @@
     "date": "2026-10-22",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 12,
     "day_in_week": 6,
@@ -5263,7 +5263,11 @@
       "native_search": "minimal reflective tension, electronic instrumental, 84 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Satu audio tepat bisa menyatukan semua potongan. Momen ketika ritme bertemu visual selalu terasa seperti menemukan jawaban.\n\nAudio apa yang sedang kamu ulang?\n\n#CreatorLife #BuzzerKlip"
+    "final_caption": "Satu audio tepat bisa menyatukan semua potongan. Momen ketika ritme bertemu visual selalu terasa seperti menemukan jawaban.\n\nAudio apa yang sedang kamu ulang?\n\n#CreatorLife #BuzzerKlip",
+    "instagram_media_id": "17938588959123932",
+    "instagram_url": "https://www.instagram.com/p/DezWq_7GjWO/",
+    "published_at": "2026-10-22T15:55:59+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 84,
