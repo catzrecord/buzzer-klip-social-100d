@@ -5404,7 +5404,7 @@
     "date": "2026-10-25",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 13,
     "day_in_week": 2,
@@ -5444,7 +5444,11 @@
       "native_search": "fast creator momentum, electronic instrumental, 112 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Orang kembali ketika ritme dan energi terasa dapat diprediksi. Buat rubrik yang punya jadwal, gaya, dan janji yang jelas.\n\nPilih hari untuk rubrikmu.\n\n#KomunitasCreator #BuzzerKlip"
+    "final_caption": "Orang kembali ketika ritme dan energi terasa dapat diprediksi. Buat rubrik yang punya jadwal, gaya, dan janji yang jelas.\n\nPilih hari untuk rubrikmu.\n\n#KomunitasCreator #BuzzerKlip",
+    "instagram_media_id": "18145568365590611",
+    "instagram_url": "https://www.instagram.com/p/De6-hcGlXf1/",
+    "published_at": "2026-10-25T14:58:53+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 87,
