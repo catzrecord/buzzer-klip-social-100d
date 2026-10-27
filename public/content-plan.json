@@ -5506,7 +5506,7 @@
     "date": "2026-10-27",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 13,
     "day_in_week": 4,
@@ -5574,7 +5574,11 @@
       "native_search": "bold forward motion, electronic instrumental, 118 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Tombol upload terasa lebih berat dari seluruh proses edit. Begitu dikirim, ruang baru terbuka untuk karya berikutnya.\n\nSelesaikan cerita yang tertunda.\n\n#CreatorStories #BuzzerKlip"
+    "final_caption": "Tombol upload terasa lebih berat dari seluruh proses edit. Begitu dikirim, ruang baru terbuka untuk karya berikutnya.\n\nSelesaikan cerita yang tertunda.\n\n#CreatorStories #BuzzerKlip",
+    "instagram_media_id": "18090445223261025",
+    "instagram_url": "https://www.instagram.com/p/DfAUXhiG7Ji/",
+    "published_at": "2026-10-27T16:45:58+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 89,
