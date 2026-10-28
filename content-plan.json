@@ -5585,7 +5585,7 @@
     "date": "2026-10-28",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 13,
     "day_in_week": 5,
@@ -5653,7 +5653,11 @@
       "native_search": "calm concentrated energy, electronic instrumental, 88 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Perubahan kecil sulit terlihat dari jarak dekat. Bandingkan dengan karya lama untuk menyadari seberapa jauh kamu sudah bergerak.\n\nBuka karya enam bulan lalu.\n\n#CreatorEnergy #BuzzerKlip"
+    "final_caption": "Perubahan kecil sulit terlihat dari jarak dekat. Bandingkan dengan karya lama untuk menyadari seberapa jauh kamu sudah bergerak.\n\nBuka karya enam bulan lalu.\n\n#CreatorEnergy #BuzzerKlip",
+    "instagram_media_id": "18124657378904091",
+    "instagram_url": "https://www.instagram.com/p/DfC8V1DkTyk/",
+    "published_at": "2026-10-28T17:13:44+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 90,
