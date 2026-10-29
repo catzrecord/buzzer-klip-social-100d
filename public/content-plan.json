@@ -5664,7 +5664,7 @@
     "date": "2026-10-29",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "single",
     "week_number": 13,
     "day_in_week": 6,
@@ -5704,7 +5704,11 @@
       "native_search": "dark editing rhythm, electronic instrumental, 104 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Banyak jam tak terlihat hidup di balik beberapa detik karya. Ketika clip tayang, semua latihan sunyi menemukan suaranya.\n\nHormati proses di balik layar.\n\n#ClipperCulture #BuzzerKlip"
+    "final_caption": "Banyak jam tak terlihat hidup di balik beberapa detik karya. Ketika clip tayang, semua latihan sunyi menemukan suaranya.\n\nHormati proses di balik layar.\n\n#ClipperCulture #BuzzerKlip",
+    "instagram_media_id": "18107191694232831",
+    "instagram_url": "https://www.instagram.com/p/DfFi1scm2xB/",
+    "published_at": "2026-10-29T17:28:39+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 91,
