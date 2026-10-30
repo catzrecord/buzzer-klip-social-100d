@@ -5715,7 +5715,7 @@
     "date": "2026-10-30",
     "time_wib": "09:00",
     "timezone": "Asia/Jakarta",
-    "status": "queued_auto",
+    "status": "published",
     "post_type": "carousel",
     "week_number": 13,
     "day_in_week": 7,
@@ -5783,7 +5783,11 @@
       "native_search": "optimistic neon lift, electronic instrumental, 110 bpm",
       "reason": "Instagram Audio API attaches audio to Reels; this queue preserves single-photo and carousel formats."
     },
-    "final_caption": "Editing bukan bakat misterius yang hanya dimiliki segelintir orang. Latihan kecil yang berulang membuat mata lebih peka terhadap ritme dan momen.\n\nAmbil satu footage untuk latihan hari ini.\n\n#LevelUpCreator #Clipper"
+    "final_caption": "Editing bukan bakat misterius yang hanya dimiliki segelintir orang. Latihan kecil yang berulang membuat mata lebih peka terhadap ritme dan momen.\n\nAmbil satu footage untuk latihan hari ini.\n\n#LevelUpCreator #Clipper",
+    "instagram_media_id": "18109584962261051",
+    "instagram_url": "https://www.instagram.com/p/DfIE5xDEYgy/",
+    "published_at": "2026-10-30T17:04:45+0000",
+    "published_via": "github_actions_graph_api"
   },
   {
     "id": 92,
